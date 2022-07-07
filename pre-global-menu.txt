@@ -1,0 +1,3 @@
+[exec] (Chroot Rescue Scan ) { x-terminal-emulator -e sudo chroot-rescue-scan --pause } Categories=X-antiX;MX-Maintenance;
+[exec] (Peony ) { /usr/bin/peony %U }
+[exec] (ScolaSync ) { /usr/bin/scolasync } Categories=GNOME;Application;Education;

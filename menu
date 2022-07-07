@@ -1,0 +1,52 @@
+[begin] (fluxbox)
+[include] (~/.fluxbox/xdg_menu)
+ [submenu] (Herramientas) </usr/share/icons/gnome/16x16/categories/preferences-system.png>
+   [exec] (MX Herramientas) {mx-tools} </usr/share/icons/hicolor/96x96/apps/mx-tools.png>
+   [exec] (Ajustes del Monitor) {lxrandr} </usr/share/icons/gnome/16x16/devices/video-display.png>
+   [exec] (Personalizar apariencia y comportamiento) {lxappearance} </usr/share/icons/gnome/16x16/apps/preferences-desktop-theme.png>
+   [exec] (Ajustes QT5) {qt5ct} </usr/share/icons/gnome/16x16/apps/preferences-desktop-theme.png>
+   [exec] (Gestor de paquetes Synaptic) {synaptic-pkexec} </usr/share/icons/gnome/16x16/categories/applications-other.png>
+   [exec] (Administrador de archivos Dolphin) {dolphin} </usr/share/icons/gnome/16x16/places/folder.png>
+   [exec] (Administrador de archivos Thunar) {thunar --no-desktop} </usr/share/icons/hicolor/16x16/apps/org.xfce.filemanager.png>
+   [exec] (Proyecto Facilitar el Software Libre en el Ecuador) {xdg-open http://facilitarelsoftwarelibre.blogspot.com} </usr/share/icons/gnome/16x16/emblems/emblem-web.png>
+ [end] # (Herramientas de Fluxbox)
+    [submenu] (Preferencias) </usr/share/icons/gnome/16x16/categories/preferences-desktop.png>
+        [exec] (Apps) {exo-open ~/.fluxbox/apps} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Init) {exo-open ~/.fluxbox/init} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Keys) {exo-open ~/.fluxbox/keys} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Main) {exo-open ~/.fluxbox/menu} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Overlay) {exo-open ~/.fluxbox/overlay} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Startup) {exo-open ~/.fluxbox/startup} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Estilos) {thunar ~/.fluxbox/styles/} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [config] (Ventana)  </usr/share/icons/gnome/16x16/apps/krfb.png> 
+    [end]
+    [submenu] (Idioma del teclado) </usr/share/icons/gnome/16x16/actions/gtk-bold.png>
+        [exec] (DE) {setxkbmap de} </usr/share/gxkb/flags/de.png>
+        [exec] (US) {setxkbmap us} </usr/share/gxkb/flags/us.png>
+        [exec] (LAT){setxkbmap latam} <~/.fluxbox/gxkb-flags/latam.png>
+        [exec] (ES) {setxkbmap es} </usr/share/gxkb/flags/es.png>
+        [exec] (FR) {setxkbmap fr} </usr/share/gxkb/flags/fr.png>
+        [exec] (GB) {setxkbmap gb} </usr/share/gxkb/flags/gb.png>
+        [exec] (GR) {setxkbmap gr} </usr/share/gxkb/flags/gr.png>
+        [exec] (IT) {setxkbmap it} </usr/share/gxkb/flags/it.png>
+        [exec] (PL) {setxkbmap pl} </usr/share/gxkb/flags/pl.png>
+        [exec] (PT) {setxkbmap pt} </usr/share/gxkb/flags/pt.png>
+        [exec] (RU) {setxkbmap ru} </usr/share/gxkb/flags/ru.png>
+
+    [end]
+   [workspaces] (Espacios de trabajo) </usr/share/icons/gnome/16x16/apps/xfwm4.png>
+   [reconfig] (Reconfigurar) </usr/share/icons/gnome/16x16/status/media-playlist-repeat.png>
+   [restart] (Reiniciar Fluxbox) </usr/share/icons/gnome/16x16/actions/reload.png>
+   [exec] (Buscador de Aplicaciones)  {xfce4-appfinder} </usr/share/icons/gnome/16x16/actions/system-search.png>
+   [exec] (Actualizar menu de Apps) {xdgmenumaker -i -s16 -f fluxbox > ~/.fluxbox/xdg_menu} </usr/share/icons/gnome/16x16/actions/gtk-redo-ltr.png>
+   [submenu] (Estilos) {} </usr/share/icons/gnome/16x16/apps/xfwm4.png>
+      [stylesdir] (/usr/share/fluxbox/styles)
+      [stylesdir] (~/.fluxbox/styles)
+   [end]
+ [submenu] (Salir)  </usr/share/icons/gnome/16x16/actions/stop.png>
+   [exec] (Reiniciar) {sudo /sbin/reboot} </usr/share/icons/gnome/16x16/actions/reload.png>
+   [exec] (Apagar) {sudo /sbin/halt} </usr/share/icons/gnome/16x16/actions/system-shutdown.png>
+   [exec] (Suspender) {sudo 'pm-suspend'} </usr/share/icons/gnome/16x16/actions/player_pause.png>
+   [exit] (Cerrar Sesión) </usr/share/icons/gnome/16x16/actions/system-log-out.png>
+ [end] # (Salir)
+[end]
