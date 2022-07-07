@@ -3,6 +3,12 @@ FluxBox personalizado para Ordenadores con pocos recursos
 
 Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo la han hecho, ejemplo ellos han reemplazado la barra de tareas que si tiene Fluxbox por la de un programa, yo prefiero usar la que tiene Fluxbox
 
+# Desinstalar aplicaciones conflictivas
+En Fluxbox no funciona bien xfce4-terminal por eso desinstalarlo:
+
+    sudo apt remove xfce4-terminal
+    
+lo mejor es desinstalarlo para que no lo llame alguna aplicación, en su lugar queda gnome-terminal que si funciona bien (También funciona bien Konsole)    
 
 # Instalación de Fluxbox y dependencias
 Este ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
@@ -10,13 +16,6 @@ Este ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos asegura
 Dependencias
 
     sudo apt-get install fluxbox lxappearance lxrandr pnmixer numlockx xfce4-appfinder xfce4-notes gnome-terminal qt5ct gammy breeze gnome-icon-theme gxkb
-    
-# Borre los estilos que trae por defecto el paquete de fluxbox
-Esto es porque son de muy baja calidad:
-
-    sudo rm -fr /usr/share/fluxbox/styles/
-
-Pero les explico que aquí en esta instalación usaremos los del paquete de MX Linux Fluxbox
 
 
 # Copiar los archivos de Fluxbox

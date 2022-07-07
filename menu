@@ -3,6 +3,8 @@
  [submenu] (Herramientas) </usr/share/icons/gnome/16x16/categories/preferences-system.png>
    [exec] (MX Herramientas) {mx-tools} </usr/share/icons/hicolor/96x96/apps/mx-tools.png>
    [exec] (Ajustes del Monitor) {lxrandr} </usr/share/icons/gnome/16x16/devices/video-display.png>
+   [exec] (Cambiar Wallpaper "nitrogen") {nitrogen /usr/share/backgrounds/} </usr/share/icons/gnome/16x16/apps/gnome-settings-background.png>
+   [exec] (Resetear nitrogen "para usar Dos Monitores") {rm -r ~/.config/nitrogen/} </usr/share/icons/gnome/16x16/apps/gnome-settings-background.png>
    [exec] (Personalizar apariencia y comportamiento) {lxappearance} </usr/share/icons/gnome/16x16/apps/preferences-desktop-theme.png>
    [exec] (Ajustes QT5) {qt5ct} </usr/share/icons/gnome/16x16/apps/preferences-desktop-theme.png>
    [exec] (Gestor de paquetes Synaptic) {synaptic-pkexec} </usr/share/icons/gnome/16x16/categories/applications-other.png>
@@ -35,7 +37,7 @@
 
     [end]
    [workspaces] (Espacios de trabajo) </usr/share/icons/gnome/16x16/apps/xfwm4.png>
-   [reconfig] (Reconfigurar) </usr/share/icons/gnome/16x16/status/media-playlist-repeat.png>
+   [reconfig] (Reajustar Fluxbox) </usr/share/icons/gnome/16x16/status/media-playlist-repeat.png>
    [restart] (Reiniciar Fluxbox) </usr/share/icons/gnome/16x16/actions/reload.png>
    [exec] (Buscador de Aplicaciones)  {xfce4-appfinder} </usr/share/icons/gnome/16x16/actions/system-search.png>
    [exec] (Actualizar menu de Apps) {xdgmenumaker -i -s16 -f fluxbox > ~/.fluxbox/xdg_menu} </usr/share/icons/gnome/16x16/actions/gtk-redo-ltr.png>
