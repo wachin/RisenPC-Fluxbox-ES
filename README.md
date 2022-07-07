@@ -5,9 +5,11 @@ Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo l
 
 # Requerimientos
 
-Usar MX Linux versión XFCE, aquí un enlace para descargar:
+Usar MX Linux versión XFCE, aquí unos enlaces para descargar:
 
 https://sourceforge.net/projects/mx-linux/files/Final/Xfce/
+
+https://mxlinux.org/download-links/
 
 **Explicación.-** Esta versión no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones
 
