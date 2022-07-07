@@ -3,7 +3,13 @@ FluxBox personalizado para Ordenadores con pocos recursos
 
 Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo la han hecho, ejemplo ellos han reemplazado la barra de tareas que si tiene Fluxbox por la de un programa, yo prefiero usar la que tiene Fluxbox
 
-   
+# Requerimientos
+
+Usar MX Linux versión XFCE, aquí un enlace para descargar:
+
+https://sourceforge.net/projects/mx-linux/files/Final/Xfce/
+
+**Explicación.-** Esta versión no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones
 
 # Instalación de Fluxbox y dependencias
 Este ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
@@ -12,8 +18,16 @@ Dependencias
 
     sudo apt-get install fluxbox lxappearance lxrandr pnmixer numlockx xfce4-appfinder xfce4-notes gnome-terminal qt5ct gammy breeze gnome-icon-theme gxkb
 
+# Borre los estilos del paquete de Fluxbox  
+
+Esto es porque los que vienen allí son para mi de mala calidad:
+
+`sudo rm -fr /usr/share/fluxbox/styles/`
+
+No se preocupe aquí usaremos los de MX Fluxbox, ponga en una terminal:
 
 # Copiar los archivos de Fluxbox
+
 Ponga en una terminal:
 
     git clone https://github.com/wachin/RisenPC-Fluxbox
@@ -99,7 +113,9 @@ Reiniciar Fluxbox, para hacer esto de clic derecho en el escritorio y clic en "R
 
 y cuando entre quedará así:
 
+![](https://raw.githubusercontent.com/wachin/RisenPC-Fluxbox-ES/main/RisenPC-Fluxbox.png)
 
+Dios les bendiga
 
 
 # CONSULTAS: 
