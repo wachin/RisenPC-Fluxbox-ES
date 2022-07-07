@@ -22,7 +22,7 @@ gnome-terminal &
 xinput-gui &
 dolphin &
 sleep 5; xfce4-notes &
-sleep 15; nitrogen --restore &
+sleep 10; nitrogen --restore &
 
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
 #
