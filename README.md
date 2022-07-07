@@ -3,12 +3,7 @@ FluxBox personalizado para Ordenadores con pocos recursos
 
 Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo la han hecho, ejemplo ellos han reemplazado la barra de tareas que si tiene Fluxbox por la de un programa, yo prefiero usar la que tiene Fluxbox
 
-# Desinstalar aplicaciones conflictivas
-En Fluxbox no funciona bien xfce4-terminal por eso desinstalarlo:
-
-    sudo apt remove xfce4-terminal
-    
-lo mejor es desinstalarlo para que no lo llame alguna aplicación, en su lugar queda gnome-terminal que si funciona bien (También funciona bien Konsole)    
+   
 
 # Instalación de Fluxbox y dependencias
 Este ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
@@ -52,6 +47,8 @@ EL siguiente atajo de teclado es para abrir el menu de aplicaciones en cualquier
 
 Tecla Windows + M
 
+Si no elige ninguna aplaste ESC para escapar
+
 ## Poner una ventana siempre encima
 Si usted por ejemplo tiene abierta la terminal y quisiera que ella esté siempre enfrente de las demás ventanas aplaste:
 
@@ -75,6 +72,7 @@ https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-panta
 # Menu de aplicaciones con iconos con xdgmenumaker
 Ponga una por una estas siete lineas de comandos en una terminal:
 
+```
 sudo apt-get install txt2tags python3-xdg gobject-introspection
 git clone https://github.com/gapan/xdgmenumaker
 cd xdgmenumaker
@@ -82,6 +80,7 @@ make
 sudo su
 make install
 exit
+```
 
 Con esto tendrá iconos de la mayoría de las aplicaciones en fluxbox
 
@@ -95,6 +94,12 @@ La primera vez que ha hecho esta instalación debe crear el menu, ponga en la te
 en ese archivo se escribirán todas las aplicaciones que están instaladas en su sistema    
 
 Reiniciar Fluxbox, para hacer esto de clic derecho en el escritorio y clic en "Reiniciar fluxbox"
+
+
+
+y cuando entre quedará así:
+
+
 
 
 # CONSULTAS: 
