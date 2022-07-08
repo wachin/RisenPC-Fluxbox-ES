@@ -1,5 +1,5 @@
-# RisenPC-Fluxbox
-FluxBox personalizado para Ordenadores con pocos recursos
+# RisenPC-Fluxbox-ES
+FluxBox personalizado en español para Ordenadores con pocos recursos
 
 Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo la han hecho, ejemplo ellos han reemplazado la barra de tareas que si tiene Fluxbox por la de un programa, yo prefiero usar la que tiene Fluxbox
 
@@ -122,26 +122,23 @@ Dios les bendiga
 
 # CONSULTAS: 
 
-fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html
+fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html  
 http://fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html
 
-How to place the toolbar to the top in fluxbox? - Unix & Linux Stack Exchange
+How to place the toolbar to the top in fluxbox? - Unix & Linux Stack Exchange  
 https://unix.stackexchange.com/questions/146277/how-to-place-the-toolbar-to-the-top-in-fluxbox
 
-Fluxbox Documentation
+Fluxbox Documentation  
 http://fluxbox.sourceforge.net/docbook/en/html/
 
-DSL Tips and Tricks :: Changing Fluxbox time display to 24 hour format
+DSL Tips and Tricks :: Changing Fluxbox time display to 24 hour format  
 http://www.damnsmalllinux.org/f/topic-3-26-12332-0.html
 
-IceWM install and setup guide
+IceWM install and setup guide  
 http://forums.fedoraforum.org/showthread.php?t=282433
 
-xdgmenumaker
+xdgmenumaker  
 https://github.com/gapan/xdgmenumaker
 
-Nitrogen - ArchWiki
+Nitrogen - ArchWiki  
 https://wiki.archlinux.org/title/nitrogen
-
-
-
