@@ -117,6 +117,14 @@ y cuando entre quedará así:
 
 ![](https://raw.githubusercontent.com/wachin/RisenPC-Fluxbox-ES/main/RisenPC-Fluxbox.png)
 
+# Cómo cambiar de Estilo de Fluxbox
+Cuando usted cambie de estilo:
+
+Clic derecho en el menú -> Estilos
+
+no se verán bien las letras del menú de la mayoría de los estilos sino hasta que usted entre en la sesión otra vez, o si lo desea puede cerrar sesión y volver a entrar
+
+
 Dios les bendiga
 
 
