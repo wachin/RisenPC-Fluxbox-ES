@@ -136,7 +136,7 @@ https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-panta
 
 
 # Menu de aplicaciones con iconos con xdgmenumaker
-Ponga una por una estas siete lineas de comandos en una terminal:
+Ponga una por una estas siete lineas de comandos en una terminal y ejecútelas una por una:
 
 ```
 sudo apt-get install txt2tags python3-xdg gobject-introspection
@@ -153,15 +153,11 @@ Con esto tendrá iconos de la mayoría de las aplicaciones en fluxbox
 
 # Creando el Menu de fluxbox, con xdgmenumaker
 
-La primera vez que ha hecho esta instalación debe crear el menu, ponga en la terminal:
+La primera vez que ha hecho esta instalación debe crear el menu, ponga en una` terminal:
 
     xdgmenumaker -i -s16 -f fluxbox > ~/.fluxbox/xdg_menu
 
-en ese archivo se escribirán todas las aplicaciones que están instaladas en su sistema    
-
-Reiniciar Fluxbox, para hacer esto de clic derecho en el escritorio y clic en "Reiniciar fluxbox"
-
-
+en ese archivo se escribirán todas las aplicaciones que están instaladas en su sistema   para que estén disponibles para el menú de Fluxbox 
 
 y cuando entre quedará así:
 
