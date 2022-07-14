@@ -57,8 +57,10 @@ Si usted es un desarrollador y le gusta esta manera de personalización de Fluxb
 
 - Luego instalelo así:
 
-    git clone https://github.com/wachin/RisenPC-Fluxbox-ES
-    ln -s RisenPC-Fluxbox-ES .fluxbox
+```
+git clone https://github.com/wachin/RisenPC-Fluxbox-ES
+ln -s RisenPC-Fluxbox-ES .fluxbox
+```
 
 esto pondrá en su HOME la carpeta:
 
