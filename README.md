@@ -49,15 +49,13 @@ Ponga en una terminal:
     cp .fluxbox ~/.fluxbox
 
 # Instalar RisenPC Fluxbox Español para Desarrolladores
-Si usted es un desarrollador y le gusta esta manera de personalización de Fluxbox, primero:
+Si usted es un desarrollador y le gusta esta manera de personalización de Fluxbox y lo quisiera cambiar a su gusto, primero:
 
 - Haga un fork de mi repositorio:
 
 [https://github.com/wachin/RisenPC-Fluxbox-ES](https://github.com/wachin/RisenPC-Fluxbox-ES)
 
 - Luego instalelo así:
-
-a en una terminal:
 
     git clone https://github.com/wachin/RisenPC-Fluxbox-ES
     ln -s RisenPC-Fluxbox-ES .fluxbox
@@ -70,7 +68,7 @@ y creará un enlace a:
 
 .fluxbox
 
-entonces usted podrá hacer cambios en el repositorio y automáticamente se verán reflejados en .fluxbox que es la carpeta de configuraciones de Fluxbox
+entonces usted podrá hacer cambios en el repositorio y automáticamente se verán reflejados en .fluxbox que es la carpeta de configuraciones de Fluxbox y serán aplicados los cambios en el menú u otras configuraciones que haga.
 
 # qt5ct utilidad de configuración de Qt5
 Ponga en una terminal:
