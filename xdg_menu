@@ -1,6 +1,7 @@
 [submenu] (Aplicaciones) </usr/share/icons/Adwaita/16x16/legacy/applications-other.png>
   [submenu] (Accesorios) </usr/share/icons/Adwaita/16x16/legacy/applications-accessories.png>
     [exec] () {file-converter-script} </usr/share/icons/hicolor/256x256/apps/file-converter.png>
+    [exec] (Android File Transfer (MTP\)) {android-file-transfer} </usr/share/icons/hicolor/512x512/apps/android-file-transfer.png>
     [exec] (Buscador de aplicaciones) {xfce4-appfinder} </usr/share/icons/hicolor/16x16/apps/org.xfce.appfinder.png>
     [exec] (Busqueda de archivos de SpaceFM) {spacefm --find-files } </usr/share/icons/hicolor/48x48/apps/spacefm-find.png>
     [exec] (Búsqueda de archivos Catfish) {/usr/bin/catfish } </usr/share/icons/hicolor/48x48/apps/org.xfce.catfish.png>
@@ -39,12 +40,14 @@
     [exec] (TeXInfo) {/usr/bin/x-terminal-emulator -e info} </usr/share/icons/Adwaita/16x16/legacy/dialog-information.png>
     [exec] (Terminator) {terminator} </usr/share/icons/hicolor/16x16/apps/terminator.png>
     [exec] (Tux Commander) {tuxcmd} </usr/share/icons/hicolor/16x16/apps/tuxcmd.png>
+    [exec] (VNote) {vnote } </usr/share/icons/hicolor/16x16/apps/vnote.png>
     [exec] (VSCodium) {/usr/share/codium/codium --unity-launch } </usr/share/pixmaps/com.visualstudio.code.oss.png>
     [exec] (Vim) {/usr/bin/x-terminal-emulator -e vim } </usr/share/icons/hicolor/48x48/apps/gvim.png>
     [exec] (Visor de los sensores) {xfce4-sensors} </usr/share/icons/hicolor/24x24/apps/xfce-sensors.png>
     [exec] (Xfimage) {xfimage } </usr/share/icons/hicolor/32x32/apps/xfi.xpm>
     [exec] (Xfpack) {xfpack } </usr/share/icons/hicolor/32x32/apps/xfp.xpm>
     [exec] (Xfwrite) {xfwrite } </usr/share/icons/hicolor/32x32/apps/xfw.xpm>
+    [exec] (Zim Wiki de escritorio) {zim } </usr/share/icons/hicolor/16x16/apps/zim.png>
     [exec] (cpupower-gui) {cpupower-gui}
     [exec] (ksnip) {ksnip}
     [exec] (luckyBackup) {/usr/bin/luckybackup} </usr/share/pixmaps/luckybackup.png>
@@ -63,7 +66,6 @@
     [exec] (Configuración de red avanzada) {nm-connection-editor} </usr/share/icons/Adwaita/16x16/legacy/preferences-system-network.png>
     [exec] (Configuración del cortafuegos) {gufw} </usr/share/icons/hicolor/48x48/apps/gufw.png>
     [exec] (Configuración del gestor de archivos) {thunar-settings} </usr/share/icons/hicolor/16x16/apps/org.xfce.thunar.png>
-    [exec] (Configuración del terminal Xfce) {xfce4-terminal --preferences} </usr/share/icons/hicolor/16x16/apps/org.xfce.terminal-settings.png>
     [exec] (Dispositivos y soportes extraíbles) {thunar-volman-settings} </usr/share/icons/hicolor/16x16/apps/org.xfce.volman.png>
     [exec] (Gestor de Bluetooth) {blueman-manager} </usr/share/icons/hicolor/16x16/status/blueman.png>
     [exec] (Gestor de configuración de Openbox) {obconf } </usr/share/pixmaps/obconf.png>
@@ -114,6 +116,7 @@
     [exec] (LazPaint) {lazpaint} </usr/share/icons/hicolor/16x16/apps/lazpaint.png>
     [exec] (Okular) {okular } </usr/share/icons/hicolor/16x16/apps/okular.png>
     [exec] (Programa de manipulación de imágenes de GNU) {gimp-2.10 } </usr/share/icons/hicolor/16x16/apps/gimp.png>
+    [exec] (XnView Multi Platform) {xnview } </opt/XnView/xnview.png>
     [exec] (gThumb) {gthumb } </usr/share/icons/hicolor/16x16/apps/org.gnome.gThumb.png>
   [end] # (Gráficos)
   [submenu] (Juegos) </usr/share/icons/Adwaita/16x16/legacy/applications-games.png>
@@ -138,6 +141,7 @@
     [exec] (Cheese) {cheese}
     [exec] (Clementine) {clementine } </usr/share/icons/hicolor/64x64/apps/clementine.png>
     [exec] (Control de Volumen de PulseAudio) {pavucontrol} </usr/share/icons/Adwaita/16x16/legacy/multimedia-volume-control.png>
+    [exec] (Conversor de sonido) {soundconverter } </usr/share/pixmaps/soundconverter.png>
     [exec] (Cozy) {com.github.geigi.cozy }
     [exec] (Drumstick Drum Grid) {drumstick-drumgrid} </usr/share/icons/hicolor/16x16/apps/drumstick.png>
     [exec] (Drumstick MIDI Player) {drumstick-guiplayer } </usr/share/icons/hicolor/16x16/apps/drumstick.png>
@@ -160,6 +164,7 @@
     [exec] (QWinFF) {qwinff } </usr/share/icons/qwinff.png>
     [exec] (QjackCtl) {qjackctl} </usr/share/icons/hicolor/32x32/apps/qjackctl.png>
     [exec] (Qsynth) {qsynth} </usr/share/icons/hicolor/32x32/apps/qsynth.png>
+    [exec] (REAPER) {"/opt/REAPER/reaper" } </usr/local/share/icons/hicolor/256x256/apps/cockos-reaper.png>
     [exec] (Reproductor Drumstick de archivos MIDI) {dmidiplayer } </usr/share/icons/hicolor/24x24/apps/dmidiplayer.png>
     [exec] (Reproductor multimedia VLC) {/usr/bin/vlc --started-from-file } </usr/share/icons/hicolor/16x16/apps/vlc.png>
     [exec] (SimpleScreenRecorder) {simplescreenrecorder --logfile} </usr/share/icons/hicolor/16x16/apps/simplescreenrecorder.png>
@@ -203,17 +208,26 @@
   [submenu] (Otras) </usr/share/icons/Adwaita/16x16/legacy/applications-other.png>
     [exec] (AP Guitar Tuner 1.02) {cd /home/wachin/.wine/dosdevices/c:/Program Files/Audio Phonics, Inc/AP Guitar Tuner 1.02 ; env WINEPREFIX="/home/wachin/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/wachin/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/Audio\\ Phonics,\\ Inc/AP\\ Guitar\\ Tuner\\ 1.02.lnk} </home/wachin/.local/share/icons/hicolor/16x16/apps/E796_APGuitarTuner.0.png>
     [exec] (Actualizar kernel en Live-USB) {x-terminal-emulator -e sudo /usr/local/bin/live-kernel-updater --pause} </usr/share/pixmaps/live-usb-kernel-updater.png>
+    [exec] (ChordFinder.hlp) {cd /home/wachin/.wine/dosdevices/c:/sgcfinder5 ; env WINEPREFIX="/home/wachin/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/wachin/.wine/dosdevices/c:/users/wachin/Start\\ Menu/Programs/Super\\ Guitar\\ Chord\\ Finder\\ V5.0/ChordFinder.hlp.lnk} </home/wachin/.local/share/icons/hicolor/16x16/apps/7873_ChordFinder.0.png>
+    [exec] (ChordSmith) {cd /home/wachin/AppLinux/ChordSmith ; /home/wachin/AppLinux/ChordSmith/ChordSmith.jar} </home/wachin/AppLinux/ChordSmith/help/AboutChordSmith.png>
+    [exec] (ChordSmith) {cd /home/wachin/AppLinux/ChordSmith ; /home/wachin/AppLinux/ChordSmith/ChordSmith.jar} </home/wachin/AppLinux/ChordSmith/help/AboutChordSmith.png>
     [exec] (Chroot Rescue Scan) {x-terminal-emulator -e sudo chroot-rescue-scan --pause}
     [exec] (Línea de comandos del gestor de paquetes basado en apt) {x-terminal-emulator -e sudo /usr/local/bin/cli-aptiX --pause} </usr/share/icons/Adwaita/16x16/legacy/system-software-install.png>
+    [exec] (Order.txt) {cd /home/wachin/.wine/dosdevices/c:/sgcfinder5 ; env WINEPREFIX="/home/wachin/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/wachin/.wine/dosdevices/c:/users/wachin/Start\\ Menu/Programs/Super\\ Guitar\\ Chord\\ Finder\\ V5.0/Order.txt.lnk} </home/wachin/.local/share/icons/hicolor/16x16/apps/0C1C_Order.0.png>
     [exec] (Peony) {/usr/bin/peony } </usr/share/icons/Adwaita/16x16/legacy/system-file-manager.png>
     [exec] (Peony Computer) {/usr/bin/peony computer:///} </usr/share/icons/hicolor/48x48/status/computer.png>
     [exec] (Peony Home) {/usr/bin/peony} </usr/share/icons/Adwaita/16x16/places/user-home.png>
     [exec] (Peony Trash) {/usr/bin/peony trash:///} </usr/share/icons/Adwaita/16x16/places/user-trash.png>
+    [exec] (README) {cd /home/wachin/.wine/dosdevices/c:/sgcfinder5 ; env WINEPREFIX="/home/wachin/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/wachin/.wine/dosdevices/c:/users/wachin/Start\\ Menu/Programs/Super\\ Guitar\\ Chord\\ Finder\\ V5.0/README.lnk} </home/wachin/.local/share/icons/hicolor/16x16/apps/5ED6_readme.0.png>
+    [exec] (SGCFinder.exe) {cd /home/wachin/.wine/dosdevices/c:/sgcfinder5 ; env WINEPREFIX="/home/wachin/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/wachin/.wine/dosdevices/c:/users/wachin/Start\\ Menu/Programs/Super\\ Guitar\\ Chord\\ Finder\\ V5.0/SGCFinder.exe.lnk} </home/wachin/.local/share/icons/hicolor/32x32/apps/C23F_SGCFinder.0.png>
+    [exec] (Uninstall Super Guitar Chord Finder) {env WINEPREFIX="/home/wachin/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/wachin/.wine/dosdevices/c:/users/wachin/Start\\ Menu/Programs/Super\\ Guitar\\ Chord\\ Finder\\ V5.0/Uninstall\\ Super\\ Guitar\\ Chord\\ Finder.lnk} </home/wachin/.local/share/icons/hicolor/32x32/apps/D660_iun3405.0.png>
   [end] # (Otras)
   [submenu] (Red) </usr/share/icons/Adwaita/16x16/legacy/applications-internet.png>
     [exec] (Cliente de correo Thunderbird) {/usr/bin/thunderbird } </usr/share/icons/hicolor/16x16/apps/thunderbird.png>
     [exec] (Firefox ESR) {/usr/lib/firefox-esr/firefox-esr } </usr/share/icons/hicolor/16x16/apps/firefox-esr.png>
     [exec] (GNOME PPP) {gnome-ppp} </usr/share/icons/hicolor/48x48/apps/gnome-ppp.png>
+    [exec] (JDownloader 2) {/bin/sh "/home/wachin/AppLinux/jd2/JDownloader2"} </home/wachin/AppLinux/jd2/.install4j/JDownloader2.png>
+    [exec] (JDownloader 2 Update & Rescue) {/bin/sh "/home/wachin/AppLinux/jd2/JDownloader2Update"} </home/wachin/AppLinux/jd2/.install4j/JDownloader2Update.png>
     [exec] (Konqueror) {konqueror} </usr/share/icons/hicolor/16x16/apps/konqueror.png>
     [exec] (MX Viewer) {mx-viewer } </usr/share/icons/hicolor/24x24/apps/mx-viewer.png>
     [exec] (Navegador web Chromium) {/usr/bin/chromium } </usr/share/icons/hicolor/16x16/apps/chromium.png>
@@ -281,7 +295,7 @@
     [exec] (QTerminal desplegable) {qterminal --drop} </usr/share/icons/Adwaita/16x16/legacy/utilities-terminal.png>
     [exec] (ROX Filer) {/usr/bin/rox-filer} </usr/share/icons/Adwaita/16x16/legacy/system-file-manager.png>
     [exec] (SpaceFM) {spacefm } </usr/share/icons/hicolor/48x48/apps/spacefm.png>
-    [exec] (Terminal de Xfce) {xfce4-terminal} </usr/share/icons/hicolor/16x16/apps/org.xfce.terminal.png>
+    [exec] (Terminal de MATE) {mate-terminal} </usr/share/icons/Adwaita/16x16/legacy/utilities-terminal.png>
     [exec] (Tilda) {/usr/bin/tilda} </usr/share/pixmaps/tilda.png>
     [exec] (Tilix) {tilix}
     [exec] (Timeshift) {timeshift-launcher} </usr/share/icons/hicolor/16x16/apps/timeshift.png>

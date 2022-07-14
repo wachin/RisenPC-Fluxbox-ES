@@ -38,7 +38,7 @@
     [end]
    [workspaces] (Espacios de trabajo) </usr/share/icons/gnome/16x16/apps/xfwm4.png>
    [reconfig] (Reajustar Fluxbox) </usr/share/icons/gnome/16x16/status/media-playlist-repeat.png>
-   [restart] (Reiniciar Fluxbox) </usr/share/icons/gnome/16x16/actions/reload.png>
+## No funciona:   [restart] (Reiniciar Fluxbox) </usr/share/icons/gnome/16x16/actions/reload.png>
    [exec] (Buscador de Aplicaciones)  {xfce4-appfinder} </usr/share/icons/gnome/16x16/actions/system-search.png>
    [exec] (Actualizar menu de Apps) {xdgmenumaker -i -s16 -f fluxbox > ~/.fluxbox/xdg_menu} </usr/share/icons/gnome/16x16/actions/gtk-redo-ltr.png>
    [submenu] (Estilos) {} </usr/share/icons/gnome/16x16/apps/xfwm4.png>
