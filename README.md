@@ -163,6 +163,9 @@ y cuando entre quedará así:
 
 ![](https://raw.githubusercontent.com/wachin/RisenPC-Fluxbox-ES/main/RisenPC-Fluxbox.png)
 
+ahora si puede reiniciar MX Linux 21 y entre en la sesión de Fluxbox
+
+
 # Cómo cambiar de Estilo de Fluxbox
 Cuando usted cambie de estilo:
 

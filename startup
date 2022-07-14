@@ -20,7 +20,8 @@ gammy &
 ksnip &
 gnome-terminal &
 xinput-gui &
-dolphin &
+thunar &
+# dolphin &
 sleep 5; xfce4-notes &
 sleep 10; nitrogen --restore &
 
