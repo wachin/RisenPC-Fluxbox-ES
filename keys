@@ -95,6 +95,7 @@ Mod1 F5 :Kill
 
 # Alt + Z
 Mod1 z :Minimize
+# Originalmente tenía: Mod1 + F9
 
 # Alt + F10
 Mod1 F10 :Maximize
