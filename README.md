@@ -203,6 +203,9 @@ En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic 
 
 se abrirá el editor de texto que ustedes usen
 
+# Problemas con abrir terminal en Thunar
+Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué, mejor use gnome-terminal u otra (o sea no use abrir terminal aquí en Thunar)
+
 Dios les bendiga
 
 
