@@ -19,7 +19,7 @@ Este ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos asegura
 **Dependencias**
 
     sudo apt-get install fluxbox lxappearance lxrandr pnmixer numlockx \
-    xfce4-appfinder xfce4-notes gnome-terminal qt5ct \
+    xfce4-appfinder xfce4-notes gnome-terminal qt5ct nitrogen \
     gammy breeze gnome-icon-theme gxkb
     
 # Borre los estilos del paquete de Fluxbox  
