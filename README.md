@@ -5,36 +5,72 @@ Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo l
 
 # Requerimientos
 
-Usar MX Linux versión XFCE, aquí unos enlaces para descargar:
+Usar MX Linux versión XFCE, aquí unos enlaces para descargar:  
 
-https://sourceforge.net/projects/mx-linux/files/Final/Xfce/
+https://sourceforge.net/projects/mx-linux/files/Final/Xfce/  
 
-https://mxlinux.org/download-links/
+https://mxlinux.org/download-links/  
 
 **Explicación.-** Esta versión no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones
 
 # Instalación de Fluxbox y dependencias
 Este ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
 
-Dependencias
+**Dependencias**
 
-    sudo apt-get install fluxbox lxappearance lxrandr pnmixer numlockx xfce4-appfinder xfce4-notes gnome-terminal qt5ct gammy breeze gnome-icon-theme gxkb
-
+    sudo apt-get install fluxbox lxappearance lxrandr pnmixer numlockx \
+    xfce4-appfinder xfce4-notes gnome-terminal qt5ct \
+    gammy breeze gnome-icon-theme gxkb
+    
 # Borre los estilos del paquete de Fluxbox  
 
 Esto es porque los que vienen allí son para mi de mala calidad:
 
 `sudo rm -fr /usr/share/fluxbox/styles/`
 
-No se preocupe aquí usaremos los de MX Fluxbox, ponga en una terminal:
+No se preocupe aquí usaremos los de MX Fluxbox
 
-# Copiar los archivos de Fluxbox
+# Borrar los archivos originales de Fluxbox si Ud los usaba
+(Si no es este su caso omita este paso) Si usted estaba usando Fluxbox debe haber una carpeta escondida, veala con Ctrl + H
+
+.fluxbox
+
+esa carpeta hay que borrarla si es que la tenía, así:
+
+`sudo rm -fr ~/.fluxbox`
+
+# Instalar RisenPC Fluxbox Español
+A continuación les dejaré dos maneras de instalar RisenPC Fluxbox ES, la primera es para un usuario normal
 
 Ponga en una terminal:
 
-    git clone https://github.com/wachin/RisenPC-Fluxbox
-    cd RisenPC-Fluxbox
+    git clone https://github.com/wachin/RisenPC-Fluxbox-ES
+    cd RisenPC-Fluxbox-ES
     cp .fluxbox ~/.fluxbox
+
+# Instalar RisenPC Fluxbox Español para Desarrolladores
+Si usted es un desarrollador y le gusta esta manera de personalización de Fluxbox, primero:
+
+- Haga un fork de mi repositorio:
+
+[https://github.com/wachin/RisenPC-Fluxbox-ES](https://github.com/wachin/RisenPC-Fluxbox-ES)
+
+- Luego instalelo así:
+
+a en una terminal:
+
+    git clone https://github.com/wachin/RisenPC-Fluxbox-ES
+    ln -s RisenPC-Fluxbox-ES .fluxbox
+
+esto pondrá en su HOME la carpeta:
+
+RisenPC-Fluxbox-ES
+
+y creará un enlace a:
+
+.fluxbox
+
+entonces usted podrá hacer cambios en el repositorio y automáticamente se verán reflejados en .fluxbox que es la carpeta de configuraciones de Fluxbox
 
 # qt5ct utilidad de configuración de Qt5
 Ponga en una terminal:
@@ -75,6 +111,20 @@ para devolver esa ventana a su estado normal, estando enfrente de la ventana de 
 Alt + V
 
 **Nota:** La Tecla Alt se llama Mod1 en las configuraciones de los atajos de teclado de Fluxbox
+
+
+## Minimizar ventanas
+En con las teclas:
+
+Alt + Z
+
+le puse este atajo de teclado porque para mi es más fácil de usar, pero si ustedes quisieran le pueden poner otro
+
+**Nota**: Esto lo modifiqué del archivo "key" en # current window commands donde originalmente tenía:  Mod1 + F9
+
+
+ ## Minimizar todas las ventanas (no se puede)
+ Pngo este título pues yo habría querido que hubiera una manerea de poder minimizar todas las ventanas de programas abiertas como en Windows (Super + D) pero no se puede, aunque se puede minimizando una por una
 
 
 # Control de brillo para evitar cansancio ocular
@@ -120,33 +170,62 @@ y cuando entre quedará así:
 # Cómo cambiar de Estilo de Fluxbox
 Cuando usted cambie de estilo:
 
-Clic derecho en el menú -> Estilos
+En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Estilos**
 
-no se verán bien las letras del menú de la mayoría de los estilos sino hasta que usted entre en la sesión otra vez, o si lo desea puede cerrar sesión y volver a entrar
+![](vx_images/67240114268985.png)
 
+en esta imagen ustedes ven que se ven bien los nombres de los estilos disponibles, sin embargo cuando elijan otro estilo muy posiblemente no se verán bien, para que se vean bien si lo desean pueden cerrar sesión y cuando entren otra vez ya se verán bien las letras, pero esto de cerrar sesión no es necesario de hacerlo del todo, pueden seguir usando Fluxbox y ya en el siguiente ingreso se verá bien.
+
+Por cierto hay algunos de estos temas en lo que al cambiar de tema no se ven todos los estilos disponibles, para arreglar eso de clic:
+
+En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Reajustar Fluxbox**
+
+![](vx_images/353071596826508.png)
+
+al hacer eso ya se verán bien todos los estilos disponibles
+
+
+# Cambiar el idioma del teclado
+Les he dejado un menú para cambiar rápido el teclado
+
+En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Idioma del teclado**
+
+![](vx_images/463993105615600.png)
+
+No hay muchos idiomas, pero si ustedes necesiten algún otro me avisan
+
+
+# Editar las opciones de Fluxbox
+Para facil acceso les he dejado 
+
+En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Preferencias**
+
+![](vx_images/455513928941351.png)
+
+se abrirá el editor de texto que ustedes usen
 
 Dios les bendiga
 
 
 # CONSULTAS: 
 
-fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html  
-http://fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html
+Editing_the_init_file  
+http://fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html  
 
-How to place the toolbar to the top in fluxbox? - Unix & Linux Stack Exchange  
-https://unix.stackexchange.com/questions/146277/how-to-place-the-toolbar-to-the-top-in-fluxbox
+How to place the toolbar to the top in fluxbox? - Unix & Linux Stack Exchange   
+https://unix.stackexchange.com/questions/146277/how-to-place-the-toolbar-to-the-top-in-fluxbox  
 
 Fluxbox Documentation  
-http://fluxbox.sourceforge.net/docbook/en/html/
+http://fluxbox.sourceforge.net/docbook/en/html/  
 
 DSL Tips and Tricks :: Changing Fluxbox time display to 24 hour format  
-http://www.damnsmalllinux.org/f/topic-3-26-12332-0.html
+http://www.damnsmalllinux.org/f/topic-3-26-12332-0.html  
 
 IceWM install and setup guide  
-http://forums.fedoraforum.org/showthread.php?t=282433
+http://forums.fedoraforum.org/showthread.php?t=282433  
 
 xdgmenumaker  
-https://github.com/gapan/xdgmenumaker
+https://github.com/gapan/xdgmenumaker  
 
 Nitrogen - ArchWiki  
-https://wiki.archlinux.org/title/nitrogen
+https://wiki.archlinux.org/title/nitrogen  
