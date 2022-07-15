@@ -136,7 +136,7 @@ https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-panta
 
 
 # Menu de aplicaciones con iconos con xdgmenumaker
-Ponga una por una estas siete lineas de comandos en una terminal y ejecútelas una por una:
+Ponga una por una estas siete lineas de comandos en una terminal y ejecútelas:
 
 ```
 sudo apt-get install txt2tags python3-xdg gobject-introspection
@@ -148,22 +148,31 @@ make install
 exit
 ```
 
-Con esto tendrá iconos de la mayoría de las aplicaciones en fluxbox
+Con esto tendrá iconos de la mayoría de las aplicaciones en el menú de fluxbox
 
 
-# Creando el Menu de fluxbox, con xdgmenumaker
+## Creando el Menu de fluxbox, con xdgmenumaker
 
-La primera vez que ha hecho esta instalación debe crear el menu, ponga en una` terminal:
+La primera vez que ha hecho esta instalación debe crear el menu, ponga en una terminal:
 
     xdgmenumaker -i -s16 -f fluxbox > ~/.fluxbox/xdg_menu
 
-en ese archivo se escribirán todas las aplicaciones que están instaladas en su sistema   para que estén disponibles para el menú de Fluxbox 
+esto es necesario hacerlo sólo una vez
 
-y cuando entre quedará así:
+En ese archivo xdg_menu se escribirán todas las aplicaciones que están instaladas en su sistema para que estén disponibles para el menú de Fluxbox 
+
+ahora si puede reiniciar MX Linux 21 y entre en la sesión de Fluxbox y cuando de clic derecho en el escritorio o clic derecho en una de las dos esquinas o Super + M quedará así:
 
 ![](https://raw.githubusercontent.com/wachin/RisenPC-Fluxbox-ES/main/RisenPC-Fluxbox.png)
 
-ahora si puede reiniciar MX Linux 21 y entre en la sesión de Fluxbox
+
+## Actualizar el menú de Fluxbox cada vez que instale alguna aplicación
+Esto debe saberlo pues en esta instalación se utiliza a xdgmenumaker pero hay que actualizar el menu después que uno instala alguna aplicación, para hacerlo clic en:
+
+**Actualizar menu de Apps
+**
+![](vx_images/474065919268985.png)
+
 
 
 # Cómo cambiar de Estilo de Fluxbox
