@@ -15,7 +15,8 @@ numlockx on &
 nm-applet &
 kate &
 # chromium &
-firefox-esr &
+# firefox-esr &
+chromium &
 gammy &
 ksnip &
 gnome-terminal &

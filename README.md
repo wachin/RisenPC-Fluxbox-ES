@@ -212,8 +212,44 @@ En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic 
 
 se abrirá el editor de texto que ustedes usen
 
-# Problemas con abrir terminal en Thunar
-Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué, mejor use gnome-terminal u otra (o sea no use abrir terminal aquí en Thunar)
+# Problemas con abrir terminal en Thunar, cambiar por otra terminal
+Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué, mejor use Konsole, o gnome-terminal u otra
+
+para hacerlo en el siguiente ejemplo con Konsole (debe ternerla instalada) añada otra terminal así, clic en:
+
+**Editar --> Configurar Acciones personalizadas**
+
+![](vx_images/227491714268986.png)
+
+allí clic en el + y llene las siguientes acciones:
+
+![](vx_images/224692296826509.png)
+
+con los siguientes datos:
+
+Nombre: Abrir Konsole aquí
+Descripción: Iniciar emulador de consola aquí
+Orden: konsole --workdir %f
+
+En icono pongale un icono de terminal:
+
+![](file:///home/wachin/RisenPC-Fluxbox-ES/img/196002%20pongale%20un%20icono%20de%20terminal.png)
+
+debe de quedarle así:
+
+![](vx_images/147163905615601.png)
+
+cuando quiera abrir terminal aquí le aparecerá disponible Konsole
+
+![](vx_images/300524728941352.png)
+
+Si quiera abrir terminal aquí con gnome terminal ponga así (cambia un poco la orden):
+
+Nombre: Abrir Gnome Terminal aquí
+Descripción: Iniciar emulador de consola aquí
+Orden: gnome-terminal %f
+
+y en icono lo mismo de arriba
 
 Dios les bendiga
 
@@ -240,3 +276,7 @@ https://github.com/gapan/xdgmenumaker
 
 Nitrogen - ArchWiki  
 https://wiki.archlinux.org/title/nitrogen  
+
+Xubuntu Thunar "Open Terminal Here" opens konsole in homefolder  
+https://askubuntu.com/questions/891680/xubuntu-thunar-open-terminal-here-opens-konsole-in-homefolder  
+https://askubuntu.com/a/892502  
