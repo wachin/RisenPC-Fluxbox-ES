@@ -251,6 +251,70 @@ Orden: gnome-terminal %f
 
 y en icono lo mismo de arriba
 
+# Temas de iconos recomendados para usar Thunar 
+Por defecto será usado el tema de iconos de Gnome que instalamos arriba y se verá el icono en la barra de herramientas, pero si usted desea usar otro como lo es Breeze, ya no se verá el icono de Thunar en la barra de herramientas
+
+Si usted quiere usar otro tema de iconos uno de los que recomiendo es:
+
+Papirus
+
+para usarlo 
+
+**Menú --> Herramientas --> Personalizar apariencia y comportamiento**
+
+**Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
+
+![](vx_images/506513509268989.png)
+
+allí en la pestaña:
+
+Tema de iconos
+
+![](vx_images/511683991826512.png)
+
+También pueden usar las variantes:
+
+Papirus-Dark
+Papirus-Light
+
+además el tema:
+
+Numix también debería de funcionar bien. Pueden probar otros si desean
+
+este tema de iconos es además compatible con las aplicaciones KDE si lo usaran también al ponerlo en "Qt5Ct"
+
+
+# Temas de iconos para aplicaciones KDE (Qt)
+Para estas aplicaciones se recomienda usar
+
+Breeze
+Papuris
+Oxygen
+
+se configura en:
+
+**Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**
+
+**Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
+
+![](vx_images/478325900615604.png)
+
+y allí en la pestaña:
+
+Tema de iconos
+
+![](vx_images/367306723941355.png)
+
+este tema además es compatible con 
+
+Dolphin
+
+como se explica con más detalle en:
+
+**Cambiar colores en carpetas de Dolphin (Administrador de archivos) en MX Linux 21, antiX 21 basados en Debian 11 Bullseye, y Ubuntu 22.04 y otros con "Dolphin Folder Color"**
+[https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html](https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html)
+
+
 Dios les bendiga
 
 

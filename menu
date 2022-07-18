@@ -6,20 +6,20 @@
    [exec] (Cambiar Wallpaper "nitrogen") {nitrogen /usr/share/backgrounds/} </usr/share/icons/gnome/16x16/apps/gnome-settings-background.png>
    [exec] (Resetear nitrogen "para usar Dos Monitores") {rm -r ~/.config/nitrogen/} </usr/share/icons/gnome/16x16/apps/gnome-settings-background.png>
    [exec] (Personalizar apariencia y comportamiento) {lxappearance} </usr/share/icons/gnome/16x16/apps/preferences-desktop-theme.png>
-   [exec] (Ajustes QT5) {qt5ct} </usr/share/icons/gnome/16x16/apps/preferences-desktop-theme.png>
+   [exec] (Ajustes QT5 "Aplicaciones KDE") {qt5ct} </usr/share/icons/gnome/16x16/apps/preferences-desktop-theme.png>
    [exec] (Gestor de paquetes Synaptic) {synaptic-pkexec} </usr/share/icons/gnome/16x16/categories/applications-other.png>
    [exec] (Administrador de archivos Dolphin) {dolphin} </usr/share/icons/gnome/16x16/places/folder.png>
    [exec] (Administrador de archivos Thunar) {thunar --no-desktop} </usr/share/icons/hicolor/16x16/apps/org.xfce.filemanager.png>
    [exec] (Proyecto Facilitar el Software Libre en el Ecuador) {xdg-open http://facilitarelsoftwarelibre.blogspot.com} </usr/share/icons/gnome/16x16/emblems/emblem-web.png>
  [end] # (Herramientas de Fluxbox)
     [submenu] (Preferencias) </usr/share/icons/gnome/16x16/categories/preferences-desktop.png>
-        [exec] (Apps) {exo-open ~/.fluxbox/apps} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
-        [exec] (Init) {exo-open ~/.fluxbox/init} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
-        [exec] (Keys) {exo-open ~/.fluxbox/keys} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
-        [exec] (Main) {exo-open ~/.fluxbox/menu} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
-        [exec] (Overlay) {exo-open ~/.fluxbox/overlay} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
-        [exec] (Startup) {exo-open ~/.fluxbox/startup} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
-        [exec] (Estilos) {thunar ~/.fluxbox/styles/} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Apps "Ajustes personalizados para ciertas aplicaciones") {exo-open ~/.fluxbox/apps} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Init "Ajustes personalizados a la configuración de Fluxbox") {exo-open ~/.fluxbox/init} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Keys "Atajos de teclado") {exo-open ~/.fluxbox/keys} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Main "Menú principal de aplicaciones") {exo-open ~/.fluxbox/menu} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Overlay "Línea que evita a estilos poner Wallpaper") {exo-open ~/.fluxbox/overlay} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Startup "Aplicaciones que se cargarán al Inicio") {exo-open ~/.fluxbox/startup} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Estilos "Lugar donde están ubicados los estilos de Fluxbox") {thunar ~/.fluxbox/styles/} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
         [config] (Ventana)  </usr/share/icons/gnome/16x16/apps/krfb.png> 
     [end]
     [submenu] (Idioma del teclado) </usr/share/icons/gnome/16x16/actions/gtk-bold.png>

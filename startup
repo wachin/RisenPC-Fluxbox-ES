@@ -9,22 +9,55 @@ xmodmap "~/.Xmodmap"
 
 # Applications you want to run with fluxbox.
 
+# Acceso root añadido para ciertas aplicaciones como: Synaptic, Discos, etc
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+# inicie pulseaudio antes de pnmixer
+start-pulseaudio-x11 &
+sleep 2
 pnmixer &
+
 numlockx on &
+
+# Colocar el administrador de red en la barra de herramientas
 nm-applet &
+
 kate &
-# chromium &
+
 # firefox-esr &
+
+
 chromium &
+
 gammy &
+
 ksnip &
+
 gnome-terminal &
+
+#put brightness controller and battery monitor on toolbar
+#xfce4-power-manager &
+
 xinput-gui &
+
+# Lanzar el Administrador de archivos Thunar
 thunar &
+
+# Lanzar el Administrador de archivos Dolphin
 # dolphin &
+
+# Poner el bloque de notas de XFCE en la barra de herramientas
 sleep 5; xfce4-notes &
+
+# Poner el portapapeles en la barra de herramientas
+# xfce4-clipman &
+
+# Iniciar el bus de accesibilidad del usuario, si aún no se está ejecutando
+/usr/libexec/at-spi-bus-launcher --launch-immediately  &
+
+# Colocar en el escritorio el último fondo seleccionado
 sleep 10; nitrogen --restore &
+
 
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
 #
