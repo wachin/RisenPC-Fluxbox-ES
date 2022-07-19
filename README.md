@@ -242,8 +242,8 @@ Icono:
 
 luego clic en y ponga:
 
-Seleccionar icono de: Todos los iconos
-Buscar un icono: utilities-terminal
+Seleccionar icono de: Todos los iconos  
+Buscar un icono: utilities-terminal  
 
 y aceptar
 
@@ -270,7 +270,7 @@ Por defecto será usado el tema de iconos de Gnome que instalamos arriba y se ve
 
 Si usted quiere usar otro tema de iconos uno de los que recomiendo es:
 
-Papirus
+Papirus  
 
 para usarlo 
 
