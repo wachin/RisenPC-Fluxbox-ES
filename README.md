@@ -236,7 +236,16 @@ Nombre: Abrir Konsole aquí
 Descripción: Iniciar emulador de consola aquí  
 Orden: konsole --workdir %f  
   
-En icono pongale un icono de terminal:
+En icono pongale un icono de terminal, de clic en el botón
+
+Icono:
+
+luego clic en y ponga:
+
+Seleccionar icono de: Todos los iconos
+Buscar un icono: utilities-terminal
+
+y aceptar
 
 ![](./img/196002%20pongale%20un%20icono%20de%20terminal.png)
 
