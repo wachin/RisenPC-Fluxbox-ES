@@ -267,9 +267,9 @@ cuando quiera abrir terminal aquí le aparecerá disponible Konsole
 
 ![](vx_images/300524728941352.png)
 
-
-  
 y en icono lo mismo de arriba
+
+Nota: Se debería poder añadir otras terminales algo así mismo.
 
 # Temas de iconos recomendados para usar Thunar 
 Por defecto será usado el tema de iconos de Gnome que instalamos arriba y se verá el icono en la barra de herramientas, pero si usted desea usar otro como lo es Breeze, ya no se verá el icono de Thunar en la barra de herramientas
