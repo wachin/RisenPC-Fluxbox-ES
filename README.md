@@ -232,9 +232,9 @@ allí clic en el + y llene las siguientes acciones:
 
 con los siguientes datos:
 
-Nombre: Abrir Konsole aquí  
+Nombre: Abrir Gnome Terminal aquí  
 Descripción: Iniciar emulador de consola aquí  
-Orden: konsole --workdir %f  
+Orden: gnome-terminal %f  
   
 En icono pongale un icono de terminal, de clic en el botón
 
@@ -253,16 +253,21 @@ y en la pestaña condiciones de apareción, marcar Carpetas:
 
 ![](./img/1960021%20pestaña%20condiciones%20de%20apareción%20marcar%20Carpetas.png)
 
+cuando quiera abrir terminal aquí le aparecerá disponible Gnome Terminal
+
+![](./img/1960024%20abrir%20con%20Gnome-terminal.png)
+
+Para añadir la terminal Konsole los datos son así:
+
+Nombre: Abrir Konsole aquí  
+Descripción: Iniciar emulador de consola aquí  
+Orden: konsole --workdir %f  
 
 cuando quiera abrir terminal aquí le aparecerá disponible Konsole
 
 ![](vx_images/300524728941352.png)
 
-Si quiera abrir terminal aquí con gnome terminal ponga así (cambia un poco la orden):
 
-Nombre: Abrir Gnome Terminal aquí  
-Descripción: Iniciar emulador de consola aquí  
-Orden: gnome-terminal %f  
   
 y en icono lo mismo de arriba
 
