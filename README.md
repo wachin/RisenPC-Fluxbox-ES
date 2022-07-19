@@ -136,7 +136,7 @@ le puse este atajo de teclado porque para mi es más fácil de usar, pero si ust
 
 Gammy está incluido en el archivo .fluxbox/startup al autoinicio, por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, allí usted la puede configurar a su gusto, también puede ver la entrada:
 
-**Instalando Gammy 0.9.64 en MX Linux 21 desde los repositorios (Herramienta para ajustar el brillo / temperatura del monitor)**
+**Instalando Gammy 0.9.64 en MX Linux 21 desde los repositorios (Herramienta para ajustar el brillo / temperatura del monitor)**  
 https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-pantalla-con-gammy-en-linux.html
 
 
@@ -174,8 +174,8 @@ ahora si puede reiniciar MX Linux 21 y entre en la sesión de Fluxbox y cuando d
 ## Actualizar el menú de Fluxbox cada vez que instale alguna aplicación
 Esto debe saberlo pues en esta instalación se utiliza a xdgmenumaker pero hay que actualizar el menu después que uno instala alguna aplicación, para hacerlo clic en:
 
-**Actualizar menu de Apps
-**
+**Actualizar menu de Apps**  
+
 ![](vx_images/474065919268985.png)
 
 
@@ -238,7 +238,7 @@ Orden: konsole --workdir %f
   
 En icono pongale un icono de terminal:
 
-![](file:///home/wachin/RisenPC-Fluxbox-ES/img/196002%20pongale%20un%20icono%20de%20terminal.png)
+![](./img/196002%20pongale%20un%20icono%20de%20terminal.png)
 
 debe de quedarle así:
 
