@@ -227,10 +227,10 @@ allí clic en el + y llene las siguientes acciones:
 
 con los siguientes datos:
 
-Nombre: Abrir Konsole aquí
-Descripción: Iniciar emulador de consola aquí
-Orden: konsole --workdir %f
-
+Nombre: Abrir Konsole aquí  
+Descripción: Iniciar emulador de consola aquí  
+Orden: konsole --workdir %f  
+  
 En icono pongale un icono de terminal:
 
 ![](file:///home/wachin/RisenPC-Fluxbox-ES/img/196002%20pongale%20un%20icono%20de%20terminal.png)
@@ -245,10 +245,10 @@ cuando quiera abrir terminal aquí le aparecerá disponible Konsole
 
 Si quiera abrir terminal aquí con gnome terminal ponga así (cambia un poco la orden):
 
-Nombre: Abrir Gnome Terminal aquí
-Descripción: Iniciar emulador de consola aquí
-Orden: gnome-terminal %f
-
+Nombre: Abrir Gnome Terminal aquí  
+Descripción: Iniciar emulador de consola aquí  
+Orden: gnome-terminal %f  
+  
 y en icono lo mismo de arriba
 
 # Temas de iconos recomendados para usar Thunar 
@@ -274,9 +274,9 @@ Tema de iconos
 
 También pueden usar las variantes:
 
-Papirus-Dark
-Papirus-Light
-
+Papirus-Dark  
+Papirus-Light  
+  
 además el tema:
 
 Numix también debería de funcionar bien. Pueden probar otros si desean
@@ -287,13 +287,13 @@ este tema de iconos es además compatible con las aplicaciones KDE si lo usaran 
 # Temas de iconos para aplicaciones KDE (Qt)
 Para estas aplicaciones se recomienda usar
 
-Breeze
-Papuris
-Oxygen
-
+Breeze  
+Papuris  
+Oxygen  
+  
 se configura en:
 
-**Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**
+**Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**  
 
 **Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
 
@@ -307,15 +307,15 @@ Tema de iconos
 
 este tema además es compatible con 
 
-Dolphin
+Dolphin  
 
-como se explica con más detalle en:
+como se explica con más detalle en:  
 
-**Cambiar colores en carpetas de Dolphin (Administrador de archivos) en MX Linux 21, antiX 21 basados en Debian 11 Bullseye, y Ubuntu 22.04 y otros con "Dolphin Folder Color"**
-[https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html](https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html)
+**Cambiar colores en carpetas de Dolphin (Administrador de archivos) en MX Linux 21, antiX 21 basados en Debian 11 Bullseye, y Ubuntu 22.04 y otros con "Dolphin Folder Color"**  
+[https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html](https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html)  
 
 
-Dios les bendiga
+Dios les bendiga  
 
 
 # CONSULTAS: 
