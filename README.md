@@ -249,9 +249,10 @@ y aceptar
 
 ![](./img/196002%20pongale%20un%20icono%20de%20terminal.png)
 
-debe de quedarle así:
+y en la pestaña condiciones de apareción, marcar Carpetas:
 
-![](vx_images/147163905615601.png)
+![](./img/1960021%20pestaña%20condiciones%20de%20apareción%20marcar%20Carpetas.png)
+
 
 cuando quiera abrir terminal aquí le aparecerá disponible Konsole
 
@@ -357,4 +358,4 @@ https://wiki.archlinux.org/title/nitrogen
 
 Xubuntu Thunar "Open Terminal Here" opens konsole in homefolder  
 https://askubuntu.com/questions/891680/xubuntu-thunar-open-terminal-here-opens-konsole-in-homefolder  
-https://askubuntu.com/a/892502  
+https://askubuntu.com/a/892502  https://github.com/mifi/lossless-cut
