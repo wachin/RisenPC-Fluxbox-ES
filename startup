@@ -7,7 +7,10 @@
 # Change your keymap:
 xmodmap "~/.Xmodmap"
 
-# Applications you want to run with fluxbox.
+# APLICACIONES QUE SE LANZARÁN AL INICIO EN FLUXBOX
+
+# Colocar el administrador de red en la barra de herramientas
+nm-applet &
 
 # Acceso root añadido para ciertas aplicaciones como: Synaptic, Discos, etc
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
@@ -17,40 +20,23 @@ start-pulseaudio-x11 &
 sleep 2
 pnmixer &
 
+# Para que la tecla numerica funcione
 numlockx on &
 
-# Colocar el administrador de red en la barra de herramientas
-nm-applet &
-
-kate &
-
-# firefox-esr &
-
-
-chromium &
-
+# Para controlar el brillo en pantalla y la lúz azúl en la noche:
 gammy &
 
-ksnip &
-
+# Terminal de Gnome que funciona bien en Fluxbox
 gnome-terminal &
 
-#put brightness controller and battery monitor on toolbar
-#xfce4-power-manager &
-
+# Es nesesario para poder configurar la velocidad de los cursores de dispositivos externos:
 xinput-gui &
 
 # Lanzar el Administrador de archivos Thunar
 thunar &
 
-# Lanzar el Administrador de archivos Dolphin
-# dolphin &
-
-# Poner el bloque de notas de XFCE en la barra de herramientas
+# Poner el bloque de notas de XFCE en la bandeja del sistema:
 sleep 5; xfce4-notes &
-
-# Poner el portapapeles en la barra de herramientas
-# xfce4-clipman &
 
 # Iniciar el bus de accesibilidad del usuario, si aún no se está ejecutando
 /usr/libexec/at-spi-bus-launcher --launch-immediately  &
@@ -59,7 +45,68 @@ sleep 5; xfce4-notes &
 sleep 10; nitrogen --restore &
 
 
-# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+
+# AJUSTE DE DISTRIBUCIÓN DE TECLADO
+
+# En mi caso yo soy de Ecuador en latinoamérica, por lo cual debo usar
+# la distribución de teclado Español Latinoamericano "latam". 
+setxkbmap -layout latam &
+
+# Si usted es de Europa España active el siguiente teclado y desactive el anterior:
+#setxkbmap -layout es &
+
+# Esto es necesario apra asegurarse que al inicio se cargue el teclado correcto, claro
+# que en el menú de Fluxbox está la opcion para elegir otros
+
+
+# PROGRAMAS DE USUARIO (OPCIONALES)
+# Lo siguiente es para aplicaciones opcionales que quiera algún usuario:
+
+# Para hacer capturas de pantalla
+ksnip &
+
+# Navegadores web, elija cual usar:
+# firefox-esr &
+# firefox &
+chromium &
+
+# Editores de texto, elija cual usar:
+kate &
+#gedit & 
+#geany &
+
+# Lanzar el Administrador de archivos Dolphin
+# dolphin &
+
+# Si Ud usa una impresora HP deberá de instalar HPLIP instále: sudo apt-get install hplip-gui
+# para lanzarlo se puede desde las aplicaciones instaladas 
+# o también desde la terminal con: hp-systray -x
+# y para que se cargue en la bandeja del sistema active lo siguiente:
+#hp-systray -x &
+
+# Si usa Shutter para tomar captura de pantallas, este es el comando 
+# para que se cargue iconizado y no ocupe espacio 
+#shutter --min_at_startup &
+
+# El siguiente es para activar el monitor debatería:
+#xfce4-power-manager &
+
+# Poner el portapapeles en la barra de herramientas
+# xfce4-clipman &
+
+# Si usted utiliza Dropbox el siguiente comando es para que se abra
+#dropbox start -i &
+
+# Si tu laptop u ordenador tiene Bluetooth debe activarlo y si 
+#blueman-applet &
+
+# Si uste tuviera un teclado externo Logitech k400 instale: sudo apt install solaar
+# busquelo entre sus aplicaciones, yo lo uso para invertir la tecla Fn
+# para que se iconize en la bandeja del sistema active:
+#solaar &
+
+
+# SI DESEA AÑADIR UNA APLICACION AL INICIO ASEGÚRESE DE PONER''&'' AL FINAL, EJEMPLO:
 #
 # unclutter -idle 2 &
 # wmnd &
