@@ -225,16 +225,22 @@ Yo vivo en el Ecuador en Latinoamérica y debo usar el Teclado Latam y por eso l
 
 allí en:
 
+![](vx_images/424300892826517.png)
+
+como ve en esa imagen lo puede cambiar por Español España siguiendo esos pasos, así cada vez que usted inicie su ordenador se cargará ese teclado
 
 
-
-Les he dejado un menú para cambiar rápido el teclado
+## Cambiando el idioma del teclado al vuelo (cambio rápido)
+Les he dejado un menú para cambiar rápidamente de teclado
 
 En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Idioma del teclado**
 
 ![](vx_images/463993105615600.png)
 
 No hay muchos idiomas, pero si ustedes necesiten algún otro me avisan
+
+Esto es util pues imaginese que usted está traduciendo algún documento y quiera cambiar rapido a otro idoma
+
 
 
 
