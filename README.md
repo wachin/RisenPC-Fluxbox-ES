@@ -242,7 +242,18 @@ No hay muchos idiomas, pero si ustedes necesiten algún otro me avisan
 Esto es util pues imaginese que usted está traduciendo algún documento y quiera cambiar rapido a otro idoma
 
 
+# Cambiar el wallpaper (Fonde de pantall)
+Les he dajado en un menú para cambiarlo, la primera vez es necesario reiniciar nitrogen, clic en:
 
+**Menú --> Herramientas --> Resetear  nitrogen en 1er uso y para usar Dos Monitores**
+
+![](vx_images/378662901615609.png)
+
+después de esto si ya pueden dar clic en:
+
+**Menú --> Herramientas --> Cambiar Wallpaper con Nitrogen**
+
+allí se abrirá nitrogen y podrán cambiar de wallpaper
 
 
 # Problemas con abrir terminal en Thunar, cambiar por otra terminal
