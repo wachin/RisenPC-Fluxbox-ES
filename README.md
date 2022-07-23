@@ -6,15 +6,15 @@ Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo l
 # Requerimientos
 Se requiere lo sigiente:
 
-MX Linux 21 versión XFCE de 32 o 64 bits
+- MX Linux 21 versión XFCE de 32 o 64 bits
 
 **Descargar desde:**
 
-https://sourceforge.net/projects/mx-linux/files/Final/Xfce/  
+[https://sourceforge.net/projects/mx-linux/files/Final/Xfce/](https://sourceforge.net/projects/mx-linux/files/Final/Xfce/)  
 
 redirigido desde:
 
-https://mxlinux.org/download-links/  
+[https://mxlinux.org/download-links/](https://mxlinux.org/download-links/)  
 
 **Explicación.-** Esta versión de MX Linux XFCE no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones
 
@@ -141,7 +141,20 @@ https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-panta
 
 
 # Menu de aplicaciones con iconos con xdgmenumaker
-Ponga una por una estas siete lineas de comandos en una terminal y ejecútelas:
+El siguiente programa necesario se llama xdgmenumaker, me gustaría que lo pongan dentro de alguna carpeta aparte para que no les quede por allí, yo estoy usando una carpeta en el HOME llamada:
+
+AppsLinux
+
+serían entonces
+
+```
+mkdir AppsLinux
+cd AppsLinux
+```
+
+me gustaría que la usen también, o si no puede ser en otra, ahora
+
+Ponga una por una las siguientes lineas de comandos en una terminal y ejecútelas:
 
 ```
 sudo apt-get install txt2tags python3-xdg gobject-introspection
@@ -151,9 +164,14 @@ make
 sudo su
 make install
 exit
+cd ..
 ```
 
 Con esto tendrá iconos de la mayoría de las aplicaciones en el menú de fluxbox
+
+Si sedea puede borrar la carpeta sdgmenumaker
+
+    sudo rm -fr xdgmenumaker
 
 
 ## Creando el Menu de fluxbox, con xdgmenumaker
@@ -199,6 +217,17 @@ al hacer eso ya se verán bien todos los estilos disponibles
 
 
 # Cambiar el idioma del teclado
+Yo vivo en el Ecuador en Latinoamérica y debo usar el Teclado Latam y por eso lo he dejado configurado para usarlo, cic en:
+
+**Menú --> Preferencias > Startup "Aplicaciones que se cargan al inicio"**
+
+![](vx_images/143144309268994.png)
+
+allí en:
+
+
+
+
 Les he dejado un menú para cambiar rápido el teclado
 
 En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Idioma del teclado**
@@ -208,14 +237,7 @@ En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic 
 No hay muchos idiomas, pero si ustedes necesiten algún otro me avisan
 
 
-# Editar las opciones de Fluxbox
-Para facil acceso les he dejado 
 
-En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Preferencias**
-
-![](vx_images/455513928941351.png)
-
-se abrirá el editor de texto que ustedes usen
 
 # Problemas con abrir terminal en Thunar, cambiar por otra terminal
 Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué, mejor use Konsole, o gnome-terminal u otra
@@ -333,6 +355,16 @@ como se explica con más detalle en:
 
 **Cambiar colores en carpetas de Dolphin (Administrador de archivos) en MX Linux 21, antiX 21 basados en Debian 11 Bullseye, y Ubuntu 22.04 y otros con "Dolphin Folder Color"**  
 [https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html](https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html)  
+
+
+# Editar las opciones de Fluxbox (opcional)
+Para facil acceso les he dejado 
+
+En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Preferencias**
+
+![](vx_images/455513928941351.png)
+
+se abrirá el editor de texto que ustedes usen
 
 
 Dios les bendiga  

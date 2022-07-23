@@ -61,7 +61,7 @@ session.doubleClickInterval:	250
 session.configVersion:	13
 session.colorsPerChannel:	4
 session.tabsAttachArea:	Window
-session.styleFile:	/home/wachin/.fluxbox/styles/MX-comfort-Small
+session.styleFile:	~/.fluxbox/styles/MX-comfort-Small
 session.appsFile:	~/.fluxbox/apps
 session.styleOverlay:	~/.fluxbox/overlay
 session.cacheLife:	5

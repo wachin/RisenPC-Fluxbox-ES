@@ -7,6 +7,7 @@
 # Change your keymap:
 xmodmap "~/.Xmodmap"
 
+
 # APLICACIONES QUE SE LANZARÁN AL INICIO EN FLUXBOX
 
 # Colocar el administrador de red en la barra de herramientas
@@ -67,11 +68,11 @@ ksnip &
 
 # Navegadores web, elija cual usar:
 # firefox-esr &
-# firefox &
-chromium &
+firefox &
+# chromium &
 
 # Editores de texto, elija cual usar:
-kate &
+#kate &
 #gedit & 
 #geany &
 
