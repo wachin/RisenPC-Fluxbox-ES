@@ -39,6 +39,9 @@ thunar &
 # Poner el bloque de notas de XFCE en la bandeja del sistema:
 sleep 5; xfce4-notes &
 
+# Aplicacion para poder expulsar USB, Pendrives
+mx-usb-unmounter &
+
 # Iniciar el bus de accesibilidad del usuario, si aún no se está ejecutando
 /usr/libexec/at-spi-bus-launcher --launch-immediately  &
 
@@ -106,6 +109,8 @@ firefox &
 # para que se iconize en la bandeja del sistema active:
 #solaar &
 
+# El siguiente es un script que tengo en HOME para abrir otros aplicaciones
+~/.startup.sh
 
 # SI DESEA AÑADIR UNA APLICACION AL INICIO ASEGÚRESE DE PONER''&'' AL FINAL, EJEMPLO:
 #
