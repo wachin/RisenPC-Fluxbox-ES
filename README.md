@@ -16,7 +16,7 @@ redirigido desde:
 
 [https://mxlinux.org/download-links/](https://mxlinux.org/download-links/)  
 
-**Explicación.-** Esta versión de MX Linux XFCE no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones
+**Explicación.-** Esta versión de MX Linux XFCE no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones. Además es importante tomar en cuenta que todo este tutorial está diseñado para MX Linux 21 por lo que si lo desea usar en otro Sistema Operativo Linux deberá modificarlo muy seguramente.
 
 # Instalación de Fluxbox y dependencias
 Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
@@ -47,11 +47,29 @@ esa carpeta hay que borrarla si es que la tenía, así:
 # Instalar RisenPC Fluxbox Español
 A continuación les dejaré dos maneras de instalar RisenPC Fluxbox ES, la primera es para un usuario normal
 
+Y me gustaría que en su HOME (es el directorio principal donde están todas sus carpetas: Descargas, Desktop, Documentos, Imágenes, Música, Vídeos ) cree allí una carpeta.
+
+AppsLinux
+
+![](vx_images/556102509269000.png)
+
+esto pues estoy creando algunas aplicaciones y en la configuracion las estoy poniendo para instalar allí y me gustaría que allí las ubique
+
 Ponga en una terminal:
 
+```
     git clone https://github.com/wachin/RisenPC-Fluxbox-ES
+    cp -r RisenPC-Fluxbox-ES ~/.fluxbox
     cd RisenPC-Fluxbox-ES
-    cp .fluxbox ~/.fluxbox
+    mkdir -p ~/.config/pnmixer/ && cp config ~/.config/pnmixer/
+```
+    
+**Explicación.-** 
+1er línea.- Clona el repositorio
+2da línea.- Copia el repositorio entero a su HOME cambiandole el nombre a .fluxbox 
+3ra línea.-  Crea la carpeta pnmixer (si ya estuviera no) y pega el archivo config de pnmixer que contiene la instrucción "pavucontrol" *(Se lo podría poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command)* para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen 
+
+**Nota:** No borre la carpeta: RisenPC-Fluxbox-ES
 
 # Instalar RisenPC Fluxbox Español para Desarrolladores
 Si usted es un desarrollador y le gusta esta manera de personalización de Fluxbox y lo quisiera cambiar a su gusto, primero:
@@ -66,81 +84,27 @@ Si usted es un desarrollador y le gusta esta manera de personalización de Fluxb
 git clone https://github.com/wachin/RisenPC-Fluxbox-ES
 ln -s RisenPC-Fluxbox-ES .fluxbox
 ```
-
-esto pondrá en su HOME la carpeta:
+esto a la carpeta:
 
 RisenPC-Fluxbox-ES
 
-y creará un enlace a:
+creará un enlace a:
 
 .fluxbox
 
 entonces usted podrá hacer cambios en el repositorio y automáticamente se verán reflejados en .fluxbox que es la carpeta de configuraciones de Fluxbox y serán aplicados los cambios en el menú u otras configuraciones que haga.
 
-# qt5ct utilidad de configuración de Qt5
+**Nota:** No borre la carpeta: RisenPC-Fluxbox-ES
+
+# Configurar qt5ct utilidad de configuración de Qt5
 Ponga en una terminal:
 
     echo "export QT_QPA_PLATFORMTHEME="qt5ct"" >> ~/.profile
 
 Con esto hemos añadido esa última línea al archivo, esto es necesario para las aplicaciones que han sido escritas en Qt (KDE) como por ejemplo Dolphin, Kate, etc para poder elegir los iconos y temas de ellas
 
-Ahora cierre sesión y entre en la sesión de Fluxbox 
 
-
-
-# Atajos de teclado
-Las siguientes configuraciones pertenecen al archivo .fluxbox/keys
-
-## AppFinder
-Para abrir el buscador de aplicaciones AppFinder (xfce4-appfinder)
-
-Tecla Windows + A
-
-**Nota:** La Tecla de Windows también es conocida como Super, o Mod4 en las configuraciones de los atajos de teclado de Fluxbox
-
-
-## Abrir menu de aplicaciones
-EL siguiente atajo de teclado es para abrir el menu de aplicaciones en cualquier lugar donde esté el cursor, aplaste:
-
-Tecla Windows + M
-
-Si no elige ninguna aplaste ESC para escapar
-
-## Poner una ventana siempre encima
-Si usted por ejemplo tiene abierta la terminal y quisiera que ella esté siempre enfrente de las demás ventanas aplaste:
-
-Alt + V
-
-para devolver esa ventana a su estado normal, estando enfrente de la ventana de esa aplicación otra vez dar:
-
-Alt + V
-
-**Nota:** La Tecla Alt se llama Mod1 en las configuraciones de los atajos de teclado de Fluxbox
-
-
-## Minimizar ventanas
-En con las teclas:
-
-Alt + Z
-
-le puse este atajo de teclado porque para mi es más fácil de usar, pero si ustedes quisieran le pueden poner otro
-
-**Nota**: Esto lo modifiqué del archivo "key" en # current window commands donde originalmente tenía:  Mod1 + F9
-
-
- ## Minimizar todas las ventanas (no se puede)
- Pngo este título pues yo habría querido que hubiera una manerea de poder minimizar todas las ventanas de programas abiertas como en Windows (Super + D) pero no se puede, aunque se puede minimizando una por una
-
-
-# Control de brillo para evitar cansancio ocular
-
-Gammy está incluido en el archivo .fluxbox/startup al autoinicio, por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, allí usted la puede configurar a su gusto, también puede ver la entrada:
-
-**Instalando Gammy 0.9.64 en MX Linux 21 desde los repositorios (Herramienta para ajustar el brillo / temperatura del monitor)**  
-https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-pantalla-con-gammy-en-linux.html
-
-
-# Menu de aplicaciones con iconos con xdgmenumaker
+# Instalar Menú de aplicaciones con iconos con xdgmenumaker
 El siguiente programa necesario se llama xdgmenumaker, me gustaría que lo pongan dentro de alguna carpeta aparte para que no les quede por allí, yo estoy usando una carpeta en el HOME llamada:
 
 AppsLinux
@@ -196,6 +160,76 @@ Esto debe saberlo pues en esta instalación se utiliza a xdgmenumaker pero hay q
 
 ![](vx_images/474065919268985.png)
 
+
+# Control de volumen
+Clic en el control de volumen:
+![](vx_images/408873991826523.png)
+
+y clic en "Mixer"
+![](vx_images/444275200615615.png)
+
+y se abrirá el control de volumen:
+
+![](vx_images/156116023941366.png)
+
+# Atajos de teclado
+Las siguientes configuraciones pertenecen al archivo .fluxbox/keys
+
+## AppFinder
+Para abrir el buscador de aplicaciones AppFinder (xfce4-appfinder)
+
+Tecla Windows + A
+
+![](vx_images/547226287889770.png)
+
+**Nota:** La Tecla de Windows también es conocida como Super, o Mod4 en las configuraciones de los atajos de teclado de Fluxbox. El AppFinder es de XFCE y desde la terminal se lo puede lanzar con xfce4-appfinder
+
+
+## Abrir menu de aplicaciones
+EL siguiente atajo de teclado es para abrir el menu de aplicaciones en cualquier lugar donde esté el cursor, con el atajo de teclado:
+
+Tecla Windows + M
+
+o lo que es lo mismo:
+
+Super + M
+
+![](vx_images/528004816576412.png)
+
+**Nota:** Si no elige ninguna aplicación aplaste ESC para escapar
+
+## Poner una ventana siempre encima
+Si usted por ejemplo tiene abierta la terminal y quisiera que ella esté siempre enfrente de las demás ventanas aplaste:
+
+Alt + V
+
+para devolver esa ventana a su estado normal, estando enfrente de la ventana de esa aplicación otra vez dar:
+
+Alt + V
+
+**Nota:** La Tecla Alt se llama Mod1 en las configuraciones de los atajos de teclado de Fluxbox
+
+
+## Minimizar ventanas
+En con las teclas:
+
+Alt + Z
+
+le puse este atajo de teclado porque para mi es más fácil de usar, pero si ustedes quisieran le pueden poner otro
+
+**Nota**: Esto lo modifiqué del archivo "key" en # current window commands donde originalmente tenía:  Mod1 + F9
+
+
+ ## Minimizar todas las ventanas (no se puede)
+ Pngo este título pues yo habría querido que hubiera una manerea de poder minimizar todas las ventanas de programas abiertas como en Windows (Super + D) pero no se puede, aunque se puede minimizando una por una
+
+
+# Control de brillo para evitar cansancio ocular
+
+Gammy está incluido en el archivo .fluxbox/startup al autoinicio, por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, allí usted la puede configurar a su gusto, también puede ver la entrada:
+
+**Instalando Gammy 0.9.64 en MX Linux 21 desde los repositorios (Herramienta para ajustar el brillo / temperatura del monitor)**  
+[https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-pantalla-con-gammy-en-linux.html](https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-pantalla-con-gammy-en-linux.html)
 
 
 # Cómo cambiar de Estilo de Fluxbox
