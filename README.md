@@ -417,6 +417,12 @@ En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic 
 
 se abrirá el editor de texto que ustedes usen
 
+# Gracias a Note
+Este tutorial ha sido hecho gracias al editor de Markdown Multiplataforma VNote:
+
+**Vnote for MX Linux 21 (y Linux basados en Debian 11 Bullseye) ~ Proyecto Facilitar el Software Libre en el Ecuador**
+[https://facilitarelsoftwarelibre.blogspot.com/2022/07/vnote-for-mx-linux-deb-package.html](https://facilitarelsoftwarelibre.blogspot.com/2022/07/vnote-for-mx-linux-deb-package.html)
+
 
 Dios les bendiga  
 
