@@ -92,7 +92,7 @@ firefox &
 # para que se cargue iconizado y no ocupe espacio 
 #shutter --min_at_startup &
 
-# El siguiente es para activar el monitor debatería:
+# El siguiente es para activar el monitor debatería, pero no lo active porque no funciona con gammy abierto:
 #xfce4-power-manager &
 
 # Poner el portapapeles en la barra de herramientas
