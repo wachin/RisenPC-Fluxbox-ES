@@ -33,8 +33,14 @@ gnome-terminal &
 # Es nesesario para poder configurar la velocidad de los cursores de dispositivos externos:
 xinput-gui &
 
-# Lanzar el Administrador de archivos Thunar
+# Lanzar el Administrador de archivos
+# Pueden activar cualquiera de los siguientes si los instalan(exepto thunar que ya está instalado): 
 thunar &
+#dolphin &
+# caja & 
+# nemo &
+# nautilus &
+# pcmanfm &
 
 # Poner el bloque de notas de XFCE en la bandeja del sistema:
 sleep 5; xfce4-notes &
@@ -74,13 +80,10 @@ ksnip &
 firefox &
 # chromium &
 
-# Editores de texto, elija cual usar:
-#kate &
+# Editores de texto, elija cual usar (debe instalarlo):
+kate &
 #gedit & 
 #geany &
-
-# Lanzar el Administrador de archivos Dolphin
-# dolphin &
 
 # Si Ud usa una impresora HP deberá de instalar HPLIP instále: sudo apt-get install hplip-gui
 # para lanzarlo se puede desde las aplicaciones instaladas 

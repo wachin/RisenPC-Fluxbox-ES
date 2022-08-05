@@ -423,6 +423,19 @@ Este tutorial ha sido hecho gracias al editor de Markdown Multiplataforma VNote:
 **Vnote for MX Linux 21 (y Linux basados en Debian 11 Bullseye) ~ Proyecto Facilitar el Software Libre en el Ecuador**
 [https://facilitarelsoftwarelibre.blogspot.com/2022/07/vnote-for-mx-linux-deb-package.html](https://facilitarelsoftwarelibre.blogspot.com/2022/07/vnote-for-mx-linux-deb-package.html)
 
+# Configurar la velocidad del cursor en dispositivos 
+xinput-gui es una interfaz grafica para xinput que le permitirá editar propiedades de dispositivos como:
+
+- Teclados
+- Ratones
+- Paneles táctiles
+- Touchpad
+
+Así será más rápido y fácil de usar, vea la siguiente entrada para ello:
+
+**No funciona la velocidad del cursor al cambiar o poner un Mouse(o Touchpad) externo en Ubuntu 16.04, 18.04, OpenSUSE, Linux Mint, Debian, antiX, MX Linux, etc - SOLUCIÓN xinput-gui **  
+[https://facilitarelsoftwarelibre.blogspot.com/2020/07/no-funciona-la-velocidad-del-cursor-al.html](https://facilitarelsoftwarelibre.blogspot.com/2020/07/no-funciona-la-velocidad-del-cursor-al.html)
+
 
 Dios les bendiga  
 
