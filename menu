@@ -1,6 +1,6 @@
 [begin] (fluxbox)
 [include] (~/.fluxbox/xdg_menu)
- [submenu] (Herramientas) </usr/share/icons/gnome/16x16/categories/preferences-system.png>
+ [submenu] (Herramientas del Sistema) </usr/share/icons/gnome/16x16/categories/preferences-system.png>
    [exec] (MX Herramientas) {mx-tools} </usr/share/icons/hicolor/96x96/apps/mx-tools.png>
    [exec] (Ajustes del Monitor) {lxrandr} </usr/share/icons/gnome/16x16/devices/video-display.png>
    [exec] (Cambiar Wallpaper con Nitrogen) {nitrogen /usr/share/backgrounds/} </usr/share/icons/gnome/16x16/apps/gnome-settings-background.png>
@@ -12,28 +12,28 @@
    [exec] (Administrador de archivos Thunar) {thunar --no-desktop} </usr/share/icons/hicolor/16x16/apps/org.xfce.thunar.png>
    [exec] (Proyecto Facilitar el Software Libre en el Ecuador) {xdg-open http://facilitarelsoftwarelibre.blogspot.com} </usr/share/icons/gnome/16x16/emblems/emblem-web.png>
  [end] # (Herramientas de Fluxbox)
-    [submenu] (Preferencias) </usr/share/icons/gnome/16x16/categories/preferences-desktop.png>
+    [submenu] (Preferencias de Fluxbox) </usr/share/icons/gnome/16x16/categories/preferences-desktop.png>
         [exec] (Apps "Ajustes personalizados para ciertas aplicaciones") {exo-open ~/.fluxbox/apps} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
         [exec] (Init "Ajustes personalizados a la configuración de Fluxbox") {exo-open ~/.fluxbox/init} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
         [exec] (Keys "Atajos de teclado") {exo-open ~/.fluxbox/keys} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
         [exec] (Main "Menú principal de aplicaciones") {exo-open ~/.fluxbox/menu} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
         [exec] (Overlay "Línea que evita a estilos poner Wallpaper") {exo-open ~/.fluxbox/overlay} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
         [exec] (Startup "Aplicaciones que se cargarán al Inicio") {featherpad ~/.fluxbox/startup} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
-        [exec] (Estilos "Lugar donde están ubicados los estilos de Fluxbox") {thunar ~/.fluxbox/styles/} </usr/share/icons/gnome/16x16/apps/accessories-text-editor.png>
+        [exec] (Estilos "Lugar donde están ubicados los estilos de Fluxbox") {thunar ~/.fluxbox/styles/} </usr/share/icons/hicolor/16x16/apps/org.xfce.thunar.png>
         [config] (Ventana)  </usr/share/icons/gnome/16x16/apps/krfb.png> 
     [end]
     [submenu] (Idioma del teclado) </usr/share/icons/gnome/16x16/actions/gtk-bold.png>
-        [exec] (DE) {setxkbmap de} </usr/share/gxkb/flags/de.png>
-        [exec] (US) {setxkbmap us} </usr/share/gxkb/flags/us.png>
-        [exec] (LAT){setxkbmap latam} <~/.fluxbox/gxkb-flags/latam.png>
-        [exec] (ES) {setxkbmap es} </usr/share/gxkb/flags/es.png>
-        [exec] (FR) {setxkbmap fr} </usr/share/gxkb/flags/fr.png>
-        [exec] (GB) {setxkbmap gb} </usr/share/gxkb/flags/gb.png>
-        [exec] (GR) {setxkbmap gr} </usr/share/gxkb/flags/gr.png>
-        [exec] (IT) {setxkbmap it} </usr/share/gxkb/flags/it.png>
-        [exec] (PL) {setxkbmap pl} </usr/share/gxkb/flags/pl.png>
-        [exec] (PT) {setxkbmap pt} </usr/share/gxkb/flags/pt.png>
-        [exec] (RU) {setxkbmap ru} </usr/share/gxkb/flags/ru.png>
+        [exec] (DE Teclado Alemán) {setxkbmap de} </usr/share/gxkb/flags/de.png>
+        [exec] (US Teclado Inglés) {setxkbmap us} </usr/share/gxkb/flags/us.png>
+        [exec] (LAT Teclado Español latino){setxkbmap latam} <~/.fluxbox/gxkb-flags/latam.png>
+        [exec] (ES Teclado Español europeo) {setxkbmap es} </usr/share/gxkb/flags/es.png>
+        [exec] (FR Teclado Francés) {setxkbmap fr} </usr/share/gxkb/flags/fr.png>
+        [exec] (GB Teclado Inglés británico) {setxkbmap gb} </usr/share/gxkb/flags/gb.png>
+        [exec] (GR Teclado Griego) {setxkbmap gr} </usr/share/gxkb/flags/gr.png>
+        [exec] (IT Teclado Italiano) {setxkbmap it} </usr/share/gxkb/flags/it.png>
+        [exec] (PL Teclado Polaco) {setxkbmap pl} </usr/share/gxkb/flags/pl.png>
+        [exec] (PT Teclado Portugués) {setxkbmap pt} </usr/share/gxkb/flags/pt.png>
+        [exec] (RU Teclado Ruso) {setxkbmap ru} </usr/share/gxkb/flags/ru.png>
 
     [end]
    [workspaces] (Espacios de trabajo) </usr/share/icons/gnome/16x16/apps/xfwm4.png>

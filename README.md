@@ -251,7 +251,7 @@ al hacer eso ya se verán bien todos los estilos disponibles
 
 
 # Cambiar el idioma del teclado
-Yo vivo en el Ecuador en Latinoamérica y debo usar el Teclado Latam y por eso lo he dejado configurado para usarlo, cic en:
+Yo vivo en el Ecuador en Latinoamérica y uso la Distribución para Español Latino y por eso lo he dejado configurado para usarlo, cic en:
 
 **Menú --> Preferencias > Startup "Aplicaciones que se cargan al inicio"**
 

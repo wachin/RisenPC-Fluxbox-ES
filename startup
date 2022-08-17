@@ -37,10 +37,16 @@ xinput-gui &
 # Pueden activar cualquiera de los siguientes si los instalan(exepto thunar que ya está instalado): 
 thunar &
 #dolphin &
-# caja & 
+#caja & 
 # nemo &
 # nautilus &
 # pcmanfm &
+
+# Editores de texto, elija cual usar (debe instalarlo):
+kate &
+#gedit & 
+#pluma &
+#geany &
 
 # Poner el bloque de notas de XFCE en la bandeja del sistema:
 sleep 5; xfce4-notes &
@@ -59,15 +65,26 @@ sleep 10; nitrogen --restore &
 # AJUSTE DE DISTRIBUCIÓN DE TECLADO
 
 # En mi caso yo soy de Ecuador en latinoamérica, por lo cual debo usar
-# la distribución de teclado Español Latinoamericano "latam". 
-setxkbmap -layout latam &
+# la distribución de teclado Español Latino "latam". 
+setxkbmap -layout latam & # Teclado Español latino
 
 # Si usted es de Europa España active el siguiente teclado y desactive el anterior:
-#setxkbmap -layout es &
+#setxkbmap -layout es & # Teclado Español europeo
 
+# Si desea otro teclado aquí están (igual si activan alguno deben desactivar el anterior):
+#setxkbmap -layout de & # Teclado Alemán
+#setxkbmap -layout us & # Teclado Inglés
+#setxkbmap -layout fr & # Teclado Francés
+#setxkbmap -layout gb & # Teclado Inglés británico
+#setxkbmap -layout gr & # Teclado Griego
+#setxkbmap -layout it & # Teclado Italiano
+#setxkbmap -layout pl & # Teclado Polaco
+#setxkbmap -layout pt & # Teclado Portugués
+#setxkbmap -layout ru & # Teclado Ruso
+       
+        
 # Esto es necesario apra asegurarse que al inicio se cargue el teclado correcto, claro
 # que en el menú de Fluxbox está la opcion para elegir otros
-
 
 # PROGRAMAS DE USUARIO (OPCIONALES)
 # Lo siguiente es para aplicaciones opcionales que quiera algún usuario:
@@ -79,11 +96,6 @@ ksnip &
 # firefox-esr &
 firefox &
 # chromium &
-
-# Editores de texto, elija cual usar (debe instalarlo):
-kate &
-#gedit & 
-#geany &
 
 # Si Ud usa una impresora HP deberá de instalar HPLIP instále: sudo apt-get install hplip-gui
 # para lanzarlo se puede desde las aplicaciones instaladas 
