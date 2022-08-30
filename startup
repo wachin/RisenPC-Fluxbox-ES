@@ -63,17 +63,14 @@ sleep 10; nitrogen --restore &
 
 
 # AJUSTE DE DISTRIBUCIÓN DE TECLADO
-
-# En mi caso yo soy de Ecuador en latinoamérica, por lo cual debo usar
-# la distribución de teclado Español Latino "latam". 
-setxkbmap -layout latam & # Teclado Español latino
-
-# Si usted es de Europa España active el siguiente teclado y desactive el anterior:
-#setxkbmap -layout es & # Teclado Español europeo
+# Si usted usa un teclado en español con el esquema siguiente: http://kbdlayout.info/kbdsp/overview+names
+# le recomiendo que use el siguienta para que coincidan las letras:
+setxkbmap -layout es & # Teclado Español europeo
 
 # Si desea otro teclado aquí están (igual si activan alguno deben desactivar el anterior):
 #setxkbmap -layout de & # Teclado Alemán
 #setxkbmap -layout us & # Teclado Inglés
+#setxkbmap -layout latam & # Teclado Español latino
 #setxkbmap -layout fr & # Teclado Francés
 #setxkbmap -layout gb & # Teclado Inglés británico
 #setxkbmap -layout gr & # Teclado Griego
@@ -81,10 +78,13 @@ setxkbmap -layout latam & # Teclado Español latino
 #setxkbmap -layout pl & # Teclado Polaco
 #setxkbmap -layout pt & # Teclado Portugués
 #setxkbmap -layout ru & # Teclado Ruso
-       
-        
-# Esto es necesario apra asegurarse que al inicio se cargue el teclado correcto, claro
-# que en el menú de Fluxbox está la opcion para elegir otros
+             
+# Esto es necesario apra asegurarse que al inicio se cargue el teclado correcto
+# En el sistema operativo los demás idiomas están en /usr/share/X11/xkb/symbols/
+# eso es si desea saber cuál es el nombre del archivo, allí usted
+# deberá abrir alguno, ejemplo puede abrir: de el cual es el alemán
+# algún otro idioma usted debería tener alguna idea de cómo se podría 
+# llamar el respectivo archivo
 
 # PROGRAMAS DE USUARIO (OPCIONALES)
 # Lo siguiente es para aplicaciones opcionales que quiera algún usuario:
@@ -123,9 +123,6 @@ firefox &
 # busquelo entre sus aplicaciones, yo lo uso para invertir la tecla Fn
 # para que se iconize en la bandeja del sistema active:
 #solaar &
-
-# El siguiente es un script que tengo en HOME para abrir otros aplicaciones
-~/.startup.sh
 
 # SI DESEA AÑADIR UNA APLICACION AL INICIO ASEGÚRESE DE PONER''&'' AL FINAL, EJEMPLO:
 #
