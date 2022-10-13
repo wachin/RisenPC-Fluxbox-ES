@@ -65,7 +65,7 @@ copie lo siguiente y pongalo allí:
 
 ```
     git clone https://github.com/wachin/RisenPC-Fluxbox-ES
-    mv -r RisenPC-Fluxbox-ES ~/.fluxbox
+    mv RisenPC-Fluxbox-ES ~/.fluxbox
     cd .fluxbox
     mkdir -p ~/.config/pnmixer/
     cp config ~/.config/pnmixer/
