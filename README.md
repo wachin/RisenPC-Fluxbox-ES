@@ -23,15 +23,20 @@ Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente no
 
 **Dependencias**
 
+
     sudo apt-get install fluxbox lxappearance lxrandr pnmixer numlockx \
     xfce4-appfinder xfce4-notes gnome-terminal qt5ct nitrogen \
     gammy breeze gnome-icon-theme gxkb thunar
+    
+dele Enter y poner "s" de que si acepta
     
 # Borre los estilos del paquete de Fluxbox  
 
 Esto es porque los que vienen allí son para mi de mala calidad:
 
-`sudo rm -fr /usr/share/fluxbox/styles/`
+```
+sudo rm -fr /usr/share/fluxbox/styles/
+```
 
 No se preocupe aquí usaremos los de MX Fluxbox
 
@@ -42,53 +47,75 @@ No se preocupe aquí usaremos los de MX Fluxbox
 
 esa carpeta hay que borrarla si es que la tenía, así:
 
-`sudo rm -fr ~/.fluxbox`
+```
+sudo rm -fr ~/.fluxbox
+```
 
 # Instalar RisenPC Fluxbox Español
 A continuación les dejaré dos maneras de instalar RisenPC Fluxbox ES, la primera es para un usuario normal
 
-Y me gustaría que en su HOME (es el directorio principal donde están todas sus carpetas: Descargas, Desktop, Documentos, Imágenes, Música, Vídeos ) cree allí una carpeta.
+**Nota:** Sólo use una de las dos formas
 
-AppsLinux
+## Instalar RisenPC Fluxbox Español para usuario normal
+Abra una terminal y:
 
-![](vx_images/556102509269000.png)
+![](vx_images/357762909269284.png)
 
-esto pues estoy creando algunas aplicaciones y en la configuracion las estoy poniendo para instalar allí y me gustaría que allí las ubique
-
-Ponga en una terminal:
+copie lo siguiente y pongalo allí:
 
 ```
     git clone https://github.com/wachin/RisenPC-Fluxbox-ES
-    cp -r RisenPC-Fluxbox-ES ~/.fluxbox
-    cd RisenPC-Fluxbox-ES
-    mkdir -p ~/.config/pnmixer/ && cp config ~/.config/pnmixer/
+    mv -r RisenPC-Fluxbox-ES ~/.fluxbox
+    cd .fluxbox
+    mkdir -p ~/.config/pnmixer/
+    cp config ~/.config/pnmixer/
 ```
     
 **Explicación.-** 
 1er línea.- Clona el repositorio
-2da línea.- Copia el repositorio entero a su HOME cambiandole el nombre a .fluxbox 
-3ra línea.-  Crea la carpeta pnmixer (si ya estuviera no) y pega el archivo config de pnmixer que contiene la instrucción "pavucontrol" *(Se lo podría poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command)* para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen 
+2da línea.- Mueve el repositorio entero allí mismo en su HOME cambiandole el nombre a .fluxbox 
+3ra línea.- Entra en la carpeta oculta .fluxbox
+4ra línea.-  Crea la carpeta pnmixer (si ya estuviera no) 
+5ta línea.- Copia y pega el archivo config de pnmixer que puse dentro de la carpeta .fluxbox que contiene la instrucción "pavucontrol" para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen. *Nota:* También se lo podría Ud poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command y allí añadir: "pavucontrol"
 
-**Nota:** No borre la carpeta: RisenPC-Fluxbox-ES
 
-# Instalar RisenPC Fluxbox Español para Desarrolladores
-Si usted es un desarrollador y le gusta esta manera de personalización de Fluxbox y lo quisiera cambiar a su gusto, primero:
+## Instalar RisenPC Fluxbox Español para Desarrolladores
+Si usted es un desarrollador y si le gustara esta manera de personalización de Fluxbox que yo he hecho, y lo quisiera cambiar a su gusto, primero
 
-- Haga un fork de mi repositorio:
+- Haga haga un fork de mi repositorio entrando en la siguiente dirección (para ello usted debe tener una cuenta de Github y saberlo usar):
 
 [https://github.com/wachin/RisenPC-Fluxbox-ES](https://github.com/wachin/RisenPC-Fluxbox-ES)
 
-- Luego instalelo así:
+Segundo, le sugiero que lo ubique en una carpeta, ejemplo yo estoy usando una carpeta con el nombre:
+
+🗀AppsLinux
+
+usted puede crearla manualmente:
+
+![](vx_images/300784791826807.png)
+
+o también lo podría hacer desde una terminal con los siguientes comandos:
+
+```
+mkdir -p AppsLinux
+cd AppsLinux
+```
+
+sea como sea, usted deberá deberá quedar ubicado en una terminal allí en AppsLinux (o en la carpeta que usted quiera): 
+
+![](vx_images/509041601615899.png)
+
+y allí poner:
 
 ```
 git clone https://github.com/wachin/RisenPC-Fluxbox-ES
 ln -s RisenPC-Fluxbox-ES .fluxbox
 ```
-esto a la carpeta:
+esto clonará el repositorio creando la carpeta:
 
-RisenPC-Fluxbox-ES
+🗀RisenPC-Fluxbox-ES
 
-creará un enlace a:
+y creará un enlace a:
 
 .fluxbox
 
@@ -97,38 +124,29 @@ entonces usted podrá hacer cambios en el repositorio y automáticamente se ver�
 **Nota:** No borre la carpeta: RisenPC-Fluxbox-ES
 
 # Configurar qt5ct utilidad de configuración de Qt5
+Esto es necesario para las aplicaciones que han sido escritas en Qt (KDE) como por ejemplo Dolphin, Kate, etc para poder elegir los iconos y temas de ellas
+
 Ponga en una terminal:
 
-    echo "export QT_QPA_PLATFORMTHEME="qt5ct"" >> ~/.profile
-
-Con esto hemos añadido esa última línea al archivo, esto es necesario para las aplicaciones que han sido escritas en Qt (KDE) como por ejemplo Dolphin, Kate, etc para poder elegir los iconos y temas de ellas
-
-
-# Instalar Menú de aplicaciones con iconos con xdgmenumaker
-El siguiente programa necesario se llama xdgmenumaker, me gustaría que lo pongan dentro de alguna carpeta aparte para que no les quede por allí, yo estoy usando una carpeta en el HOME llamada:
-
-AppsLinux
-
-serían entonces
-
 ```
-mkdir AppsLinux
-cd AppsLinux
+ echo "export QT_QPA_PLATFORMTHEME="qt5ct"" >> ~/.profile
 ```
 
-me gustaría que la usen también, o si no puede ser en otra, ahora
+Con esto hemos añadido esa última línea al archivo oculto .profile
 
-Ponga una por una las siguientes lineas de comandos en una terminal y ejecútelas:
+
+# Instalar Menú de aplicaciones con iconos, con xdgmenumaker
+El siguiente programa necesario se llama xdgmenumaker, que me gustaría que lo pongan dentro de alguna carpeta aparte o como les decía en la que yo estoy usando:
+
+🗀AppsLinux
+
+de cualquier manera, ponga una por una las siguientes lineas de comandos en una terminal y ejecutelas:
 
 ```
 sudo apt-get install txt2tags python3-xdg gobject-introspection
-git clone https://github.com/gapan/xdgmenumaker
-cd xdgmenumaker
-make
-sudo su
-make install
-exit
-cd ..
+git clone https://github.com/gapan/xdgmenumaker && cd xdgmenumaker && make
+sudo su 
+make install && exit
 ```
 
 Con esto tendrá iconos de la mayoría de las aplicaciones en el menú de fluxbox
@@ -148,7 +166,9 @@ esto es necesario hacerlo sólo una vez
 
 En ese archivo xdg_menu se escribirán todas las aplicaciones que están instaladas en su sistema para que estén disponibles para el menú de Fluxbox 
 
-ahora si puede reiniciar MX Linux 21 y entre en la sesión de Fluxbox y cuando de clic derecho en el escritorio o clic derecho en una de las dos esquinas o Super + M quedará así:
+& Reiniciar y entrar en la sesión de Fluxbox
+
+Ahora si debe cerrar sesión y entrar en la sesión de Fluxbox y cuando de clic derecho en el escritorio o clic derecho en una de las dos esquinas o Super + M quedará así:
 
 ![](https://raw.githubusercontent.com/wachin/RisenPC-Fluxbox-ES/main/RisenPC-Fluxbox.png)
 
