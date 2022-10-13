@@ -72,11 +72,11 @@ copie lo siguiente y pongalo allí:
 ```
     
 **Explicación.-** 
-1er línea.- Clona el repositorio
-2da línea.- Mueve el repositorio entero allí mismo en su HOME cambiandole el nombre a .fluxbox 
-3ra línea.- Entra en la carpeta oculta .fluxbox
-4ra línea.-  Crea la carpeta pnmixer (si ya estuviera no) 
-5ta línea.- Copia y pega el archivo config de pnmixer que puse dentro de la carpeta .fluxbox que contiene la instrucción "pavucontrol" para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen. *Nota:* También se lo podría Ud poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command y allí añadir: "pavucontrol"
+1er línea.- Clona el repositorio  
+2da línea.- Mueve el repositorio entero allí mismo en su HOME cambiandole el nombre a .fluxbox  
+3ra línea.- Entra en la carpeta oculta .fluxbox  
+4ra línea.-  Crea la carpeta pnmixer (si ya estuviera no)  
+5ta línea.- Copia y pega el archivo config de pnmixer que puse dentro de la carpeta .fluxbox que contiene la instrucción "pavucontrol" para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen. *Nota:* También se lo podría Ud poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command y allí añadir: "pavucontrol"  
 
 
 ## Instalar RisenPC Fluxbox Español para Desarrolladores
@@ -145,8 +145,16 @@ de cualquier manera, ponga una por una las siguientes lineas de comandos en una 
 ```
 sudo apt-get install txt2tags python3-xdg gobject-introspection
 git clone https://github.com/gapan/xdgmenumaker && cd xdgmenumaker && make
+```
+y luego la siguiente y ponga su contraseña:
+
+```
 sudo su 
-make install && exit
+```
+y luego la siguiente:
+
+```
+make install && cd
 ```
 
 Con esto tendrá iconos de la mayoría de las aplicaciones en el menú de fluxbox
