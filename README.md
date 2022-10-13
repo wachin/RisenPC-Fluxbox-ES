@@ -68,7 +68,7 @@ copie lo siguiente y pongalo allí:
     mv RisenPC-Fluxbox-ES ~/.fluxbox
     cd .fluxbox
     mkdir -p ~/.config/pnmixer/
-    cp config ~/.config/pnmixer/
+    cp config ~/.config/pnmixer/ && cd
 ```
     
 **Explicación**  
