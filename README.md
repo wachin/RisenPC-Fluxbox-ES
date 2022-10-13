@@ -71,7 +71,7 @@ copie lo siguiente y pongalo allí:
     cp config ~/.config/pnmixer/
 ```
     
-**Explicación.-** 
+**Explicación**  
 1er línea.- Clona el repositorio  
 2da línea.- Mueve el repositorio entero allí mismo en su HOME cambiandole el nombre a .fluxbox  
 3ra línea.- Entra en la carpeta oculta .fluxbox  
@@ -80,7 +80,7 @@ copie lo siguiente y pongalo allí:
 
 
 ## Instalar RisenPC Fluxbox Español para Desarrolladores
-Si usted es un desarrollador y si le gustara esta manera de personalización de Fluxbox que yo he hecho, y lo quisiera cambiar a su gusto, primero
+Si usted es un desarrollador y si le gustara esta manera de personalización de Fluxbox que yo he hecho, y lo quisiera cambiar a su gusto, primero:
 
 - Haga haga un fork de mi repositorio entrando en la siguiente dirección (para ello usted debe tener una cuenta de Github y saberlo usar):
 
@@ -94,18 +94,18 @@ usted puede crearla manualmente:
 
 ![](vx_images/300784791826807.png)
 
-o también lo podría hacer desde una terminal con los siguientes comandos:
+o también lo podría hacerlo desde una terminal con los siguientes comandos:
 
 ```
 mkdir -p AppsLinux
 cd AppsLinux
 ```
 
-sea como sea, usted deberá deberá quedar ubicado en una terminal allí en AppsLinux (o en la carpeta que usted quiera): 
+sea como sea, usted deberá quedar ubicado en una terminal allí en AppsLinux o en la carpeta que usted quiera y allí poner los siguientes comandos: 
 
 ![](vx_images/509041601615899.png)
 
-y allí poner:
+copiar lo siguiente y ponerlo en una terminal:
 
 ```
 git clone https://github.com/wachin/RisenPC-Fluxbox-ES
@@ -136,9 +136,20 @@ Con esto hemos añadido esa última línea al archivo oculto .profile
 
 
 # Instalar Menú de aplicaciones con iconos, con xdgmenumaker
-El siguiente programa necesario se llama xdgmenumaker, que me gustaría que lo pongan dentro de alguna carpeta aparte o como les decía en la que yo estoy usando:
+El siguiente programa necesario se llama xdgmenumaker, que me gustaría que lo pongan dentro de alguna carpeta aparte, yo estoy usando:
 
 🗀AppsLinux
+
+usted puede crearla manualmente:
+
+![](vx_images/300784791826807.png)
+
+o también lo podría hacerlo desde una terminal con los siguientes comandos:
+
+```
+mkdir -p AppsLinux
+cd AppsLinux
+```
 
 de cualquier manera, ponga una por una las siguientes lineas de comandos en una terminal y ejecutelas:
 
