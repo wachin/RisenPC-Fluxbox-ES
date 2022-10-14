@@ -165,12 +165,12 @@ sudo su
 y luego la siguiente:
 
 ```
-make install && cd
+make install && exit
 ```
 
 Con esto tendrá iconos de la mayoría de las aplicaciones en el menú de fluxbox
 
-Si sedea puede borrar la carpeta sdgmenumaker
+Si sedea puede borrar la carpeta xdgmenumaker
 
     sudo rm -fr xdgmenumaker
 
