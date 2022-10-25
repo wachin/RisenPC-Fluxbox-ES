@@ -68,7 +68,7 @@ copie lo siguiente y pongalo allí:
     mv RisenPC-Fluxbox-ES ~/.fluxbox
     cd .fluxbox
     mkdir -p ~/.config/pnmixer/
-    cp config ~/.config/pnmixer/ && cd
+    cp config ~/.config/pnmixer/
 ```
     
 **Explicación**  
@@ -110,6 +110,7 @@ copiar lo siguiente y ponerlo en una terminal:
 ```
 git clone https://github.com/wachin/RisenPC-Fluxbox-ES
 ln -s RisenPC-Fluxbox-ES .fluxbox
+mv .fluxbox ~
 ```
 esto clonará el repositorio creando la carpeta:
 
