@@ -71,7 +71,7 @@ copie uno por uno lo siguiente y pongalo allí:
     cp config ~/.config/pnmixer/
 ```
 
-**Nota:** También se podría copiar todas las cinco lineas de un solo pero en la terminal Konsole pues allí funciona bien siempre no se porqué, pero ejemplo en Gnome-Terminal a veces da error si se copian todas las cinco lineas de un sólo y se las pega, esto les digo pues he estado testeando esto.
+También se podría copiar todas las cinco lineas de un solo pero en la terminal Konsole pues allí funciona bien siempre no se porqué, pero ejemplo en Gnome-Terminal a veces da error si se copian todas las cinco lineas de un sólo y se las pega, esto les digo pues he estado testeando esto.
     
 **Explicación**  
 1er línea.- Clona el repositorio  
@@ -80,7 +80,7 @@ copie uno por uno lo siguiente y pongalo allí:
 4ra línea.-  Crea la carpeta pnmixer (si ya estuviera no)  
 5ta línea.- Copia y pega el archivo config de pnmixer que puse dentro de la carpeta .fluxbox que contiene la instrucción "pavucontrol" para que al darle clic y dar clic en elbotón "Mixer" aparezca el control de volumen. **Nota:** También se lo podría Ud poner manualmente así: Clic derecho al icono --> Preferences --> Behavior --> Volume Control Command y allí añadir: "pavucontrol"  
 
-**Nota:** En la terminal quedarán ubicados en .fluxbox pueden salir de allí con cd
+Por cierto, en la terminal quedarán ubicados en .fluxbox pero pueden salir de allí con cd.
 
 
 ## Instalar RisenPC Fluxbox Español para Desarrolladores
