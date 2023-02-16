@@ -68,7 +68,7 @@ copie uno por uno lo siguiente y pongalo allí:
     mv RisenPC-Fluxbox-ES ~/.fluxbox
     cd .fluxbox
     mkdir -p ~/.config/pnmixer/
-    cp config ~/.config/pnmixer/
+    cp config ~/.config/pnmixer/ && cd && echo "Dios les bendiga"
 ```
 
 También se podría copiar todas las cinco lineas de un solo pero en la terminal Konsole pues allí funciona bien siempre no se porqué, pero ejemplo en Gnome-Terminal a veces da error si se copian todas las cinco lineas de un sólo y se las pega, esto les digo pues he estado testeando esto.
@@ -170,7 +170,7 @@ sudo su
 y luego la siguiente:
 
 ```
-make install && exit
+make install && cd .. && exit
 ```
 
 Con esto tendrá iconos de la mayoría de las aplicaciones en el menú de fluxbox
