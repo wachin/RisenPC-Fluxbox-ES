@@ -8,15 +8,17 @@ Se requiere lo sigiente:
 
 - MX Linux 21 versión XFCE de 32 o 64 bits
 
-**Descargar desde:**
+**Nota:** Pero también se puede instalar en MX 19 u otro superior de MX Linux
+
+**Descargar MX Linux desde:**
 
 [https://sourceforge.net/projects/mx-linux/files/Final/Xfce/](https://sourceforge.net/projects/mx-linux/files/Final/Xfce/)  
 
-redirigido desde:
+redirigido desde (donde están las ISO más actuales):
 
 [https://mxlinux.org/download-links/](https://mxlinux.org/download-links/)  
 
-**Explicación.-** Esta versión de MX Linux XFCE no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones. Además es importante tomar en cuenta que todo este tutorial está diseñado para MX Linux 21 por lo que si lo desea usar en otro Sistema Operativo Linux deberá modificarlo muy seguramente.
+**Explicación.-** Esta versión de MX Linux XFCE no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones (digo esto porque MX Linux tiene una versión de Fluxbox pero yo no la uso porque no me gusta). Además es importante tomar en cuenta que todo este tutorial está diseñado para MX Linux 21 por lo que si lo desea usar en otro Sistema Operativo Linux deberá modificarlo muy seguramente.
 
 # Instalación de Fluxbox y dependencias
 Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
@@ -26,13 +28,15 @@ Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente no
 
     sudo apt-get install fluxbox lxappearance lxrandr pnmixer numlockx \
     xfce4-appfinder xfce4-notes gnome-terminal qt5ct nitrogen \
-    gammy breeze gnome-icon-theme gxkb thunar
-    
+    breeze gnome-icon-theme gxkb thunar gammy
+
 dele Enter y poner "s" de que si acepta
-    
+
+**Nota:** Para instalarlo en MX Linux 19 debe quitar el paquete gammy.   
+
 # Borre los estilos del paquete de Fluxbox  
 
-Esto es porque los que vienen allí son para mi de mala calidad:
+El comando anterior instalará fluxbox pero ese trae unos temas muy feos, yo nunca los uso, yo los borro, le recomiendo hacer lo mismo, ponga en la terminal:
 
 ```
 sudo rm -fr /usr/share/fluxbox/styles/
@@ -41,7 +45,7 @@ sudo rm -fr /usr/share/fluxbox/styles/
 No se preocupe aquí usaremos los de MX Fluxbox
 
 # Borrar los archivos originales de Fluxbox si Ud los usaba
-(Si no es este su caso omita este paso) Si usted estaba usando Fluxbox debe haber una carpeta escondida, veala con Ctrl + H
+Si usted estaba usando Fluxbox debe haber una carpeta escondida (Si no es este su caso omita este paso) , veala con Ctrl + H
 
 .fluxbox
 
@@ -84,49 +88,11 @@ Por cierto, en la terminal quedarán ubicados en .fluxbox pero pueden salir de a
 
 
 ## Instalar RisenPC Fluxbox Español para Desarrolladores
-Si usted es un desarrollador y si le gustara esta manera de personalización de Fluxbox que yo he hecho, y lo quisiera cambiar a su gusto, primero:
+Si usted es un desarrollador y desea cambiar el funcionamiento de este proyecto le recomiendo instalarlo de otra manera, de clic en el siguiente enlace:
 
-- Haga haga un fork de mi repositorio entrando en la siguiente dirección (para ello usted debe tener una cuenta de Github y saberlo usar):
+[RisenPC-for-DEV.md](RisenPC-for-DEV.md)
 
-[https://github.com/wachin/RisenPC-Fluxbox-ES](https://github.com/wachin/RisenPC-Fluxbox-ES)
 
-Segundo, le sugiero que lo ubique en una carpeta, ejemplo yo estoy usando una carpeta con el nombre:
-
-🗀AppsLinux
-
-usted puede crearla manualmente:
-
-![](vx_images/300784791826807.png)
-
-o también lo podría hacerlo desde una terminal con los siguientes comandos:
-
-```
-mkdir -p AppsLinux
-cd AppsLinux
-```
-
-sea como sea, usted deberá quedar ubicado en una terminal allí en AppsLinux o en la carpeta que usted quiera y allí poner los siguientes comandos: 
-
-![](vx_images/509041601615899.png)
-
-copiar lo siguiente y ponerlo en una terminal:
-
-```
-git clone https://github.com/wachin/RisenPC-Fluxbox-ES
-ln -s RisenPC-Fluxbox-ES .fluxbox
-mv .fluxbox ~
-```
-esto clonará el repositorio creando la carpeta:
-
-🗀RisenPC-Fluxbox-ES
-
-y creará un enlace a:
-
-.fluxbox
-
-entonces usted podrá hacer cambios en el repositorio y automáticamente se verán reflejados en .fluxbox que es la carpeta de configuraciones de Fluxbox y serán aplicados los cambios en el menú u otras configuraciones que haga.
-
-**Nota:** No borre la carpeta: RisenPC-Fluxbox-ES
 
 # Configurar qt5ct utilidad de configuración de Qt5
 Esto es necesario para las aplicaciones que han sido escritas en Qt (KDE) como por ejemplo Dolphin, Kate, etc para poder elegir los iconos y temas de ellas
@@ -352,7 +318,7 @@ con los siguientes datos:
 Nombre: Abrir Gnome Terminal aquí  
 Descripción: Iniciar emulador de consola aquí  
 Orden: gnome-terminal %f  
-  
+
 En icono pongale un icono de terminal, de clic en el botón
 
 Icono:
@@ -413,7 +379,7 @@ También pueden usar las variantes:
 
 Papirus-Dark  
 Papirus-Light  
-  
+
 además el tema:
 
 Numix también debería de funcionar bien. Pueden probar otros si desean
@@ -427,7 +393,7 @@ Para estas aplicaciones se recomienda usar
 Breeze  
 Papuris  
 Oxygen  
-  
+
 se configura en:
 
 **Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**  
