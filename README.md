@@ -118,8 +118,8 @@ usted puede crearla manualmente:
 o también lo podría hacerlo desde una terminal con los siguientes comandos:
 
 ```
-mkdir -p AppsLinux
-cd AppsLinux
+mkdir -p ~/AppsLinux
+cd ~/AppsLinux
 ```
 
 de cualquier manera, ponga una por una las siguientes lineas de comandos en una terminal y ejecutelas:
