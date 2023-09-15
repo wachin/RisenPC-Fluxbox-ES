@@ -185,6 +185,8 @@ Esto debe saberlo pues en esta instalación se utiliza a xdgmenumaker pero hay q
 
 ![](vx_images/474065919268985.png)
 
+Pero si no desea utilizar este menú sólo use el XFCE4-AppFinder
+
 
 # Control de volumen
 Clic en el control de volumen:
@@ -198,7 +200,21 @@ y se abrirá el control de volumen:
 ![](vx_images/156116023941366.png)
 
 # Atajos de teclado
-Las siguientes configuraciones pertenecen al archivo .fluxbox/keys
+Antes de que vea la configuración de los atajos de teclado, si usted es curioso y luego quisiera editar los atajos para añadir uno (para usuarios avanzados) puede dar clic derecho en algún lugar del escritorio si estuviera sin ninguna aplicación encima o sino de clic derecho a la izquierda abajo del escritorio:
+
+![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/547226287889775.png)
+
+luego clic en:
+
+![](vx_images/547226287889776.png)
+
+allí yo puse las siguientes configuraciones al archivo .fluxbox/keys
+
+![](vx_images/547226287889777.png)
+
+allí si ustedes quisieran podrían editar eso o poner otros atajos.
+
+Ahora si, los atajos
 
 ## AppFinder
 Para abrir el buscador de aplicaciones AppFinder (xfce4-appfinder)
@@ -251,10 +267,16 @@ le puse este atajo de teclado porque para mi es más fácil de usar, pero si ust
 
 # Control de brillo para evitar cansancio ocular
 
-Gammy está incluido en el archivo .fluxbox/startup al autoinicio, por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, allí usted la puede configurar a su gusto, también puede ver la entrada:
+Gammy está en los repositorios de MX Linux 21 y si ha hecho esta instalación allí pues ya está instalado pues lo he incluido en el archivo .fluxbox/startup al autoinicio, por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, la siguiente imagen es de Gammy en MX Linux 21 (yo lo uso como indico en la imagen):
 
-**Instalando Gammy 0.9.64 en MX Linux 21 desde los repositorios (Herramienta para ajustar el brillo / temperatura del monitor)**  
-[https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-pantalla-con-gammy-en-linux.html](https://facilitarelsoftwarelibre.blogspot.com/2022/01/control-de-brillo-de-pantalla-con-gammy-en-linux.html)
+![](vx_images/547226287889778.png)
+
+
+
+**Para Instalarlo en MX Linux 19.-** hay que compilarlo desde el código fuente, ver:
+
+**Compilando gammy 0.9.51 (herramienta para ajustar el brillo / temperatura del monitor) en MX Linux 19**
+<https://facilitarelsoftwarelibre.blogspot.com/2022/02/compilando-gammy-en-mx-linux-19.html>
 
 
 # Cómo cambiar de Estilo de Fluxbox
