@@ -213,7 +213,7 @@ se configura en:
 
 **Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**  
 
-![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/478325900615604.png)
+![](vx_images/478325900615604.png)
 
 **Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
 
@@ -225,7 +225,7 @@ y allí en la pestaña:
 
 Seleccionar **Papirus**
 
-![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/367306723941355.png)
+![](vx_images/367306723941355.png)
 
 este tema además es compatible con 
 
@@ -236,7 +236,33 @@ como se explica con más detalle en:
 **Cambiar colores en carpetas de Dolphin (Administrador de archivos) en MX Linux 21, antiX 21 basados en Debian 11 Bullseye, y Ubuntu 22.04 y otros con "Dolphin Folder Color"**  
 [https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html](https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html)  
 
+## El tamaño de las fuentes de las aplicaciones QT
 
+Allí mismo en el configurador QT de clic en la pestaña:
+
+**Tipos de letra**
+
+![](vx_images/547226287889779.png)
+
+allí arriba como se ve en la imagen cambiar el tamaño de las fuentes:
+
+![](vx_images/547226287889780.png)
+
+después dar clic en Aplicar luego en Aceptar y cerrar la aplicación escrita en QT ejemplo Kate, Dolphin u otra y vuelvala a abrir y ya tendrán las fuentes otro tamaño, o si cambió la fuente estará usando otra, allí como ve yo le he puesto:
+
+**DejaVu Sans** - **Book** - **11**
+
+pero usted puede elegir otro tipo, estilo, tamaño
+
+como puede ser:
+
+![](vx_images/547226287889781.png)
+
+y lo dejo así:
+
+![](vx_images/547226287889782.png)
+
+y allí le di clic en Aceptar y Aplicar y reinicié la aplicación Qt que necesitaba.
 
 # Atajos de teclado
 
