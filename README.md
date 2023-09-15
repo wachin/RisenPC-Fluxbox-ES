@@ -199,7 +199,43 @@ y se abrirá el control de volumen:
 
 ![](vx_images/156116023941366.png)
 
+
+
+# Temas de iconos para aplicaciones KDE (Qt)
+
+Para estas aplicaciones se recomienda usar
+
+Breeze  
+Papuris  
+Oxygen  
+
+se configura en:
+
+**Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**  
+
+**Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
+
+![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/478325900615604.png)
+
+y allí en la pestaña:
+
+Tema de iconos
+
+![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/367306723941355.png)
+
+este tema además es compatible con 
+
+Dolphin  
+
+como se explica con más detalle en:  
+
+**Cambiar colores en carpetas de Dolphin (Administrador de archivos) en MX Linux 21, antiX 21 basados en Debian 11 Bullseye, y Ubuntu 22.04 y otros con "Dolphin Folder Color"**  
+[https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html](https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html)  
+
+
+
 # Atajos de teclado
+
 Antes de que vea la configuración de los atajos de teclado, si usted es curioso y luego quisiera editar los atajos para añadir uno (para usuarios avanzados) puede dar clic derecho en algún lugar del escritorio si estuviera sin ninguna aplicación encima o sino de clic derecho a la izquierda abajo del escritorio:
 
 ![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/547226287889775.png)
@@ -212,7 +248,7 @@ allí yo puse las siguientes configuraciones al archivo .fluxbox/keys
 
 ![](vx_images/547226287889777.png)
 
-allí si ustedes quisieran podrían editar eso o poner otros atajos.
+allí si ustedes quisieran podrían editar eso o poner otros atajos, pero esto es opcional
 
 Ahora si, los atajos
 
@@ -448,35 +484,6 @@ Numix también debería de funcionar bien. Pueden probar otros si desean
 este tema de iconos es además compatible con las aplicaciones KDE si lo usaran también al ponerlo en "Qt5Ct"
 
 
-# Temas de iconos para aplicaciones KDE (Qt)
-Para estas aplicaciones se recomienda usar
-
-Breeze  
-Papuris  
-Oxygen  
-
-se configura en:
-
-**Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**  
-
-**Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
-
-![](vx_images/478325900615604.png)
-
-y allí en la pestaña:
-
-Tema de iconos
-
-![](vx_images/367306723941355.png)
-
-este tema además es compatible con 
-
-Dolphin  
-
-como se explica con más detalle en:  
-
-**Cambiar colores en carpetas de Dolphin (Administrador de archivos) en MX Linux 21, antiX 21 basados en Debian 11 Bullseye, y Ubuntu 22.04 y otros con "Dolphin Folder Color"**  
-[https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html](https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html)  
 
 
 # Editar las opciones de Fluxbox (opcional)
