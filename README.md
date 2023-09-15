@@ -138,20 +138,32 @@ y hagase super usuario (ponga su contraseña):
 ```
 sudo su 
 ```
-y luego lo siguiente:
+en la siguiente imagen verá usted hasta donde debe usted estar ubicado:
+
+![](vx_images/547226287889771.png)
+
+y luego poner lo siguiente:
 
 ```
 make install && cd .. && exit
 ```
 
+aquí un captura:
+
+![](vx_images/547226287889772.png)
+
 Con esto tendrá iconos de la mayoría de las aplicaciones en el menú de fluxbox
 
-Si sedea puede borrar la carpeta xdgmenumaker
+**Nota**: Si lo sedea puede borrar la carpeta xdgmenumaker
 
     sudo rm -fr xdgmenumaker
 
 
 ## Creando el Menu de fluxbox, con xdgmenumaker
+
+Antes de hacer esto debe:
+
+**Reiniciar y entrar en la sesión de Fluxbox**
 
 La primera vez que ha hecho esta instalación debe crear el menu, ponga en una terminal:
 
@@ -161,9 +173,7 @@ esto es necesario hacerlo sólo una vez
 
 En ese archivo xdg_menu se escribirán todas las aplicaciones que están instaladas en su sistema para que estén disponibles para el menú de Fluxbox 
 
-& Reiniciar y entrar en la sesión de Fluxbox
-
-Ahora si debe cerrar sesión y entrar en la sesión de Fluxbox y cuando de clic derecho en el escritorio o clic derecho en una de las dos esquinas o Super + M quedará así:
+Para ver el menú de clic derecho en el escritorio o clic derecho en una de las dos esquinas o Super + M quedará así:
 
 ![](https://raw.githubusercontent.com/wachin/RisenPC-Fluxbox-ES/main/RisenPC-Fluxbox.png)
 
