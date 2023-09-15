@@ -58,14 +58,14 @@ sudo rm -fr ~/.fluxbox
 # Instalar RisenPC Fluxbox Español
 A continuación les dejaré dos maneras de instalar RisenPC Fluxbox ES, la primera es para un usuario normal
 
-**Nota:** Sólo use una de las dos formas
+**Nota:** Sólo use una de las **dos** formas
 
 ## Instalar RisenPC Fluxbox Español para usuario normal
 Abra una terminal y:
 
 ![](vx_images/357762909269284.png)
 
-copie uno por uno lo siguiente y pongalo allí:
+copie todo de una sola vez (Terminales como XFCE4-Terminal o Konsole admiten pegar todo de una sola vez) (también si no le funciona copie uno por uno):
 
 ```
     git clone https://github.com/wachin/RisenPC-Fluxbox-ES
@@ -75,7 +75,7 @@ copie uno por uno lo siguiente y pongalo allí:
     cp config ~/.config/pnmixer/ && cd && echo "Dios les bendiga"
 ```
 
-También se podría copiar todas las cinco lineas de un solo pero en la terminal Konsole pues allí funciona bien siempre no se porqué, pero ejemplo en Gnome-Terminal a veces da error si se copian todas las cinco lineas de un sólo y se las pega, esto les digo pues he estado testeando esto.
+peguelo en una terminal como lo indica la imagen anterior y ejecutelo
     
 **Explicación**  
 1er línea.- Clona el repositorio  
@@ -88,7 +88,7 @@ Por cierto, en la terminal quedarán ubicados en .fluxbox pero pueden salir de a
 
 
 ## Instalar RisenPC Fluxbox Español para Desarrolladores
-Si usted es un desarrollador y desea cambiar el funcionamiento de este proyecto le recomiendo instalarlo de otra manera, de clic en el siguiente enlace:
+Esta es la segunda manera de instalar RisenPC Fluxbox si usted es un desarrollador y desea cambiar el funcionamiento de este proyecto le recomiendo instalarlo de otra manera, de clic en el siguiente enlace:
 
 [RisenPC-for-DEV.md](RisenPC-for-DEV.md)
 
@@ -316,7 +316,7 @@ allí se abrirá nitrogen y podrán cambiar de wallpaper
 
 
 # Problemas con abrir terminal en Thunar, cambiar por otra terminal
-Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué, mejor use Konsole, o gnome-terminal u otra
+Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué (esto en MX Linux 19 o 21), mejor use Konsole, o gnome-terminal u otra
 
 para hacerlo en el siguiente ejemplo con Konsole (debe ternerla instalada) añada otra terminal así, clic en:
 
@@ -330,44 +330,68 @@ allí clic en el + y llene las siguientes acciones:
 
 con los siguientes datos:
 
-Nombre: Abrir Gnome Terminal aquí  
-Descripción: Iniciar emulador de consola aquí  
-Orden: gnome-terminal %f  
+**Nombre:** Abrir Gnome Terminal aquí  
+**Descripción:** Iniciar emulador de consola aquí  
+**Orden:** gnome-terminal %f  
 
 En icono pongale un icono de terminal, de clic en el botón
 
-Icono:
+**Icono:**
 
 luego clic en y ponga:
 
-Seleccionar icono de: Todos los iconos  
-Buscar un icono: utilities-terminal  
+**Seleccionar icono de:** Todos los iconos  
+**Buscar un icono:** utilities-terminal  
 
-y aceptar
+y **aceptar**
 
 ![](./img/196002%20pongale%20un%20icono%20de%20terminal.png)
 
-y en la pestaña condiciones de apareción, marcar Carpetas:
+y en la pestaña "**Condiciones de aparición**", marcar **Carpetas**:
 
 ![](./img/1960021%20pestaña%20condiciones%20de%20apareción%20marcar%20Carpetas.png)
 
-cuando quiera abrir terminal aquí le aparecerá disponible Gnome Terminal
+y **Aceptar**
+
+Ahora si desea puede ubicar más arriba a gnome-terminal, haga así búsque abajo a:
+
+"**Abrir Gnome Terminal aquí**"
+
+![](vx_images/547226287889773.png)
+
+y me queda así:
+
+![](vx_images/547226287889774.png)
+
+Cuando quiera abrir terminal le aparecerá disponible Gnome Terminal
 
 ![](./img/1960024%20abrir%20con%20Gnome-terminal.png)
 
-Para añadir la terminal Konsole los datos son así:
 
-Nombre: Abrir Konsole aquí  
-Descripción: Iniciar emulador de consola aquí  
-Orden: konsole --workdir %f  
+
+## Para añadir la terminal **Konsole**
+
+Debe ternerla instalada:
+
+`sudo apt install konsole`
+
+los datos son así:
+
+**Nombre**: Abrir Konsole aquí  
+**Descripción**: Iniciar emulador de consola aquí  
+**Orden**: konsole --workdir %f  
+
+y en la pestaña "**Condiciones de aparición**", marcar **Carpetas**
+
+y en **icono** lo mismo de arriba
 
 cuando quiera abrir terminal aquí le aparecerá disponible Konsole
 
 ![](vx_images/300524728941352.png)
 
-y en icono lo mismo de arriba
+También si desea la puede mover más arriba
 
-Nota: Se debería poder añadir otras terminales algo así mismo.
+**Nota:** Se debería poder añadir otras terminales algo así mismo.
 
 # Temas de iconos recomendados para usar Thunar 
 Por defecto será usado el tema de iconos de Gnome que instalamos arriba y se verá el icono en la barra de herramientas, pero si usted desea usar otro como lo es Breeze, ya no se verá el icono de Thunar en la barra de herramientas
