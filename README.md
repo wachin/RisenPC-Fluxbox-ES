@@ -213,13 +213,17 @@ se configura en:
 
 **Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**  
 
+![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/478325900615604.png)
+
 **Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
 
-![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/478325900615604.png)
+Esperar un poco hasta que se abran los ajustes de QT
 
 y allí en la pestaña:
 
-Tema de iconos
+**Tema de iconos**
+
+Seleccionar **Papirus**
 
 ![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/367306723941355.png)
 
