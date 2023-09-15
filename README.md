@@ -122,18 +122,23 @@ mkdir -p ~/AppsLinux
 cd ~/AppsLinux
 ```
 
-de cualquier manera, ponga una por una las siguientes lineas de comandos en una terminal y ejecutelas:
+de cualquier manera si lo haga manual o desde la terminal, luego instale los paquetes:
 
 ```
 sudo apt-get install txt2tags python3-xdg gobject-introspection
+```
+y luego el programa xdgmenumaker:
+
+```
 git clone https://github.com/gapan/xdgmenumaker && cd xdgmenumaker && make
 ```
-y luego la siguiente y ponga su contraseña:
+
+y hagase super usuario (ponga su contraseña):
 
 ```
 sudo su 
 ```
-y luego la siguiente:
+y luego lo siguiente:
 
 ```
 make install && cd .. && exit
