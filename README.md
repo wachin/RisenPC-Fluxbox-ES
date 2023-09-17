@@ -56,9 +56,7 @@ sudo rm -fr ~/.fluxbox
 ```
 
 # Instalar RisenPC Fluxbox Español
-A continuación les dejaré dos maneras de instalar RisenPC Fluxbox ES, la primera es para un usuario normal
-
-**Nota:** Sólo use una de las **dos** formas
+A continuación les dejaré dos maneras de instalar RisenPC Fluxbox ES, la primera es para un usuario normal:
 
 ## Instalar RisenPC Fluxbox Español para usuario normal
 Abra una terminal y:
@@ -165,7 +163,13 @@ Antes de hacer esto debe:
 
 **Reiniciar y entrar en la sesión de Fluxbox**
 
-La primera vez que ha hecho esta instalación debe crear el menu, ponga en una terminal:
+![](vx_images/547226287889799.png)
+
+la siguiente imagen es de MX Linux 19:
+
+![](vx_images/547226287889800.png)
+
+una vez que ha entrado, ponga en una terminal:
 
     xdgmenumaker -i -s16 -f fluxbox > ~/.fluxbox/xdg_menu
 
