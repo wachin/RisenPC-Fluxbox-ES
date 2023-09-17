@@ -454,10 +454,26 @@ allí añadir la ruta donde están sus Wallpapers:
 
 ![](vx_images/547226287889793.png)
 
+así:
+
+![](vx_images/547226287889794.png)
+
+así me queda:
+
+![](vx_images/547226287889795.png)
+
+y les pongo la siguiente imagen para que puedan ver Nitrogen ha cargado las imagenes de la carpeta que creé en Imágenes:
+
+![](vx_images/547226287889796.png)
+
+y Wallpaper cambiado:
+
+![](vx_images/547226287889797.png)
 
 
 
-# Problemas con abrir terminal en Thunar, cambiar por otra terminal
+
+# Problemas con abrir terminal en Thunar, solución añadir otra terminal
 Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué (esto en MX Linux 19 o 21), mejor use Konsole, o gnome-terminal u otra
 
 para hacerlo en el siguiente ejemplo con Konsole (debe ternerla instalada) añada otra terminal así, clic en:
