@@ -333,7 +333,23 @@ le puse este atajo de teclado porque para mi es más fácil de usar, pero si ust
 
 # Control de brillo para evitar cansancio ocular
 
-Gammy está en los repositorios de MX Linux 21 y si ha hecho esta instalación allí pues ya está instalado pues lo he incluido en el archivo .fluxbox/startup al autoinicio, por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, la siguiente imagen es de Gammy en MX Linux 21 (yo lo uso como indico en la imagen):
+Gammy está en los repositorios de MX Linux 21 y si ha hecho esta instalación allí pues ya está instalado pues lo he incluido en el archivo .fluxbox/startup al autoinicio
+
+Ese archivo lo puede abrir desde el menú:
+
+![](vx_images/547226287889784.png)
+
+allí lo puse:
+
+![](vx_images/547226287889785.png)
+
+
+
+![](vx_images/547226287889783.png)
+
+
+
+por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, la siguiente imagen es de Gammy en MX Linux 21 (yo lo uso como indico en la imagen):
 
 ![](vx_images/547226287889778.png)
 
@@ -389,7 +405,7 @@ No hay muchos idiomas, pero si ustedes necesiten algún otro me avisan
 Esto es util pues imaginese que usted está traduciendo algún documento y quiera cambiar rapido a otro idoma
 
 
-# Cambiar el wallpaper (Fonde de pantall)
+# Cambiar el wallpaper (Fondo de pantalla)
 Les he dajado en un menú para cambiarlo, la primera vez es necesario reiniciar nitrogen, clic en:
 
 **Menú --> Herramientas --> Resetear  nitrogen en 1er uso y para usar Dos Monitores**
@@ -400,7 +416,9 @@ después de esto si ya pueden dar clic en:
 
 **Menú --> Herramientas --> Cambiar Wallpaper con Nitrogen**
 
-allí se abrirá nitrogen y podrán cambiar de wallpaper
+allí se abrirá nitrogen y podrán cambiar de wallpaper, por defecto abrirá los que están instalados en el sistema:
+
+
 
 
 # Problemas con abrir terminal en Thunar, cambiar por otra terminal
