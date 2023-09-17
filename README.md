@@ -343,11 +343,13 @@ allí lo puse:
 
 ![](vx_images/547226287889785.png)
 
+también lo puede buscar manualmente con el administrador de archivos  usando Ctrl + H para ver los archivos ocultos y buscar la ruta:
 
+.fluxbox/startup
 
-![](vx_images/547226287889783.png)
+lo puede abrir a ese archivo con algún editor de texto, ejemplo en la siguiente imagen con Geany:
 
-
+![](vx_images/547226287889786.png)
 
 por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, la siguiente imagen es de Gammy en MX Linux 21 (yo lo uso como indico en la imagen):
 
@@ -406,17 +408,51 @@ Esto es util pues imaginese que usted está traduciendo algún documento y quier
 
 
 # Cambiar el wallpaper (Fondo de pantalla)
-Les he dajado en un menú para cambiarlo, la primera vez es necesario reiniciar nitrogen, clic en:
+La primera vez que lo vamos a usar es necesario reiniciar nitrogen, de clic en:
 
 **Menú --> Herramientas --> Resetear  nitrogen en 1er uso y para usar Dos Monitores**
 
 ![](vx_images/378662901615609.png)
 
+esa opción sirve para dos cosas, lo estamos usando para la primera
+
 después de esto si ya pueden dar clic en:
 
 **Menú --> Herramientas --> Cambiar Wallpaper con Nitrogen**
 
-allí se abrirá nitrogen y podrán cambiar de wallpaper, por defecto abrirá los que están instalados en el sistema:
+![](vx_images/547226287889787.png)
+
+allí se abrirá nitrogen y podrán cambiar de wallpaper, por defecto abrirá los que están instalados en el sistema. En la siguiente imagen le pongo los pasos para elegir otro:
+
+![](vx_images/547226287889788.png)
+
+solo que en el punto 2 donde dice **Automatic** cambiele a **Scaled**
+
+
+
+# Para añadir un Wallpaper personalizado
+
+Para usar una imagen como Wallpaper, debe crear una capeta en algún lugar, puede ser dentro de la carpeta Imágenes:
+
+![](vx_images/547226287889789.png)
+
+ejemplo:
+
+![](vx_images/547226287889790.png)
+
+le he puesto como nombre Wallpapers y dentro he puesto varios:
+
+![](vx_images/547226287889791.png)
+
+para poder seleccionarlos desde Nitrogen, debo dar clic en Nitrogen en:
+
+**Preferencias**
+
+![](vx_images/547226287889792.png)
+
+allí añadir la ruta donde están sus Wallpapers:
+
+![](vx_images/547226287889793.png)
 
 
 
