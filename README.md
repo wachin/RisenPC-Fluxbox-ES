@@ -362,6 +362,10 @@ por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo
 **Compilando gammy 0.9.51 (herramienta para ajustar el brillo / temperatura del monitor) en MX Linux 19**
 <https://facilitarelsoftwarelibre.blogspot.com/2022/02/compilando-gammy-en-mx-linux-19.html>
 
+Por cierto para minimizar gammy en MX Linux 19 es así como muestro en la siguiente imagen:
+
+![](vx_images/547226287889798.png)
+
 
 # Cómo cambiar de Estilo de Fluxbox
 Cuando usted cambie de estilo:
