@@ -165,7 +165,7 @@ Antes de hacer esto debe:
 
 ![](vx_images/547226287889799.png)
 
-la siguiente imagen es de MX Linux 19:
+la anterior y la siguiente imagen son de MX Linux 19:
 
 ![](vx_images/547226287889800.png)
 
