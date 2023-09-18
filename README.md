@@ -418,7 +418,7 @@ Esto es util pues imaginese que usted está traduciendo algún documento y quier
 # Cambiar el wallpaper (Fondo de pantalla)
 La primera vez que lo vamos a usar es necesario reiniciar nitrogen, de clic en:
 
-**Menú --> Herramientas --> Resetear  nitrogen en 1er uso y para usar Dos Monitores**
+**Menú --> Herramientas --> Resetear  Nitrogen en 1er uso y resetear para usar Dos Monitores**
 
 ![](vx_images/378662901615609.png)
 
@@ -426,7 +426,7 @@ esa opción sirve para dos cosas, lo estamos usando para la primera
 
 después de esto si ya pueden dar clic en:
 
-**Menú --> Herramientas --> Cambiar Wallpaper con Nitrogen**
+**Menú --> Herramientas --> Cambiar el fondo del escritorio con Nitrogen -imagenes del sistema- **
 
 ![](vx_images/547226287889787.png)
 
@@ -452,7 +452,13 @@ le he puesto como nombre Wallpapers y dentro he puesto varios:
 
 ![](vx_images/547226287889791.png)
 
-para poder seleccionarlos desde Nitrogen, debo dar clic en Nitrogen en:
+para poder seleccionarlos desde Nitrogen, clic en:
+
+**Menú --> Herramientas --> Cambiar sus fondo de escritorio con Nitrogen -sus imagenes-**
+
+![](vx_images/547226287889818.png)
+
+luego debo dar clic en Nitrogen en:
 
 **Preferencias**
 
@@ -466,7 +472,7 @@ así:
 
 ![](vx_images/547226287889794.png)
 
-así me queda:
+así me queda y doy clic en OK:
 
 ![](vx_images/547226287889795.png)
 
@@ -474,7 +480,7 @@ y les pongo la siguiente imagen para que puedan ver Nitrogen ha cargado las imag
 
 ![](vx_images/547226287889796.png)
 
-y Wallpaper cambiado:
+**Nota:** Scaled es para que la imagen ocupe todo el fondo del escritorio si es que no fuera del mismo tamaño y Wallpaper cambiado:
 
 ![](vx_images/547226287889797.png)
 
