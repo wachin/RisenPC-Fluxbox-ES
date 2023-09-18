@@ -438,7 +438,7 @@ solo que en el punto 2 donde dice **Automatic** cambiele a **Scaled**
 
 
 
-# Para añadir un Wallpaper personalizado
+# Para añadir un fondo de escritorio (Wallpaper) personalizado
 
 Para usar una imagen como Wallpaper, debe crear una capeta en algún lugar, puede ser dentro de la carpeta Imágenes:
 
@@ -479,6 +479,70 @@ y Wallpaper cambiado:
 ![](vx_images/547226287889797.png)
 
 
+
+# Para añadir fondos de escritorio (Wallpaper) de los repositorios (de diferentes distribuciones)
+
+En los repositorios hay varios paquetes de fondos de escritorio de diferentes distribuciones, si uno en Synaptic busca la palabra:
+
+**backgrounds**
+
+encontrará varios paquetes que tienen fondos de escritorio
+
+![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/547226287889801.png)
+
+allí como ejemplo instalé:
+
+mate-backgrounds
+
+y si busco en los **Archivos instalados**
+
+![](vx_images/547226287889802.png)
+
+quedan instalados en la siguiente ruta:
+
+/usr/share/backgrounds/mate
+
+![](vx_images/547226287889803.png)
+
+pero Nitrogen no los carga
+
+La solución más fácil para mi es marcarlos para instalar:
+
+![](vx_images/547226287889804.png)
+
+y generar un script de descarga:
+
+![](vx_images/547226287889805.png)
+
+el script de descarga por defecto aparecerá para guardarlo dentro de la ubicación:
+
+root
+
+![](vx_images/547226287889806.png)
+
+pero yo nunca lo guardo allí, siempre lo guardo en alguna partición de Windows: NTFS o exFAT, y si usted no tienen ninguna puede poner un Pendrive y guardarlo allí pues generalmente están en formato fat32 o exFAT:
+
+![](vx_images/547226287889807.png)
+
+y una vez en el lugar guardado abrir el archivo:
+
+![](vx_images/547226287889808.png)
+
+cada una de las lineas generadas en el script:
+
+![](vx_images/547226287889809.png)
+
+se pueden descargar desde una terminal una por una, o todas al mismo tiempo:
+
+![](vx_images/547226287889810.png)
+
+**Nota:** Hay que esperar hasta que el porcentaje esté al 100% de descarga.
+
+luego a cada paquete lo puede descomprimir con clic derecho extraer aquí:
+
+
+
+y dentro buscar las imágenes y moverlas a la carpeta donde usted tiene sus imagenes
 
 
 # Problemas con abrir terminal en Thunar, solución añadir otra terminal
