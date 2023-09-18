@@ -520,7 +520,7 @@ root
 
 ![](vx_images/547226287889806.png)
 
-pero yo nunca lo guardo allí, siempre lo guardo en alguna partición de Windows: NTFS o exFAT, y si usted no tienen ninguna puede poner un Pendrive y guardarlo allí pues generalmente están en formato fat32 o exFAT:
+pero yo nunca lo guardo allí (porque después adquieren permisos de super usuario y solo se pueden borrar abriendo un administrador de archivos como root, ejemplo: sudo pcmanfm -pero hay que tener instalado en este ejemplo pcmanfm, u otro administrador de archivos, no recomiendo usar el mismo Thunar por algunas razones-), siempre lo guardo en alguna partición de Windows: NTFS o exFAT, y si usted no tienen ninguna puede poner un Pendrive y guardarlo allí pues generalmente están en formato fat32 o exFAT:
 
 ![](vx_images/547226287889807.png)
 
@@ -549,6 +549,40 @@ y dentro buscar las imágenes y moverlas a la carpeta donde usted tiene sus imag
 en la siguiente imagen ya he entrado en el lugar donde están todas las imágenes:
 
 ![](vx_images/547226287889813.png)
+
+todas esas imagenes usted las puede mover al lugar donde tiene sus imagenes para fondos de escritorio
+
+Otros paquete con imagenes para fondo de pantalla:
+
+plasma-wallpapers-addons
+
+**Nota:** Estas imagenes de los paquetes en synaptic buscando las palabras: backgrounds y wallpaper son de MX Linux 19, en MX Linux 21 puede que hayan más paquetes
+
+# Dónde puedo descargar más wallpapers del mundo Linux?
+
+Puede buscar en Google así:
+
+backgrounds packages.ubuntu.com/
+
+![](vx_images/547226287889814.png)
+
+también:
+
+wallpaper archive.ubuntu.com
+
+![](vx_images/547226287889815.png)
+
+de allí obtuve dos enlaces importantes:
+
+http://archive.ubuntu.com/ubuntu/pool/universe/u/ubuntu-gnome-wallpapers/
+
+http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-wallpapers/
+
+también:
+
+wallpapers community-packages.deepin.com/
+
+![](vx_images/547226287889816.png)
 
 
 
