@@ -560,13 +560,17 @@ plasma-wallpapers-addons
 
 # Dónde puedo descargar más wallpapers del mundo Linux?
 
-Puede buscar en Google así:
+Puede buscar en Google
+
+**Los Wallpapers de Ubuntu:**
+
+Ponga en Google lo siguiente:
 
 backgrounds packages.ubuntu.com/
 
 ![](vx_images/547226287889814.png)
 
-también:
+también con la palabra wallpaper:
 
 wallpaper archive.ubuntu.com
 
@@ -578,11 +582,25 @@ http://archive.ubuntu.com/ubuntu/pool/universe/u/ubuntu-gnome-wallpapers/
 
 http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-wallpapers/
 
-también:
+también
+
+**Los Wallpapers de Deepin Linux**
 
 wallpapers community-packages.deepin.com/
 
 ![](vx_images/547226287889816.png)
+
+a la fecha que hago este tutorial encontré este enlace allí:
+
+https://community-packages.deepin.com/deepin/pool/main/d/deepin-wallpapers/
+
+también 
+
+**Los Wallpapers de Linux Mint:**
+
+wallpapers packages.linuxmint.com
+
+![](vx_images/547226287889817.png)
 
 
 
