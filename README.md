@@ -536,13 +536,21 @@ se pueden descargar desde una terminal una por una, o todas al mismo tiempo:
 
 ![](vx_images/547226287889810.png)
 
-**Nota:** Hay que esperar hasta que el porcentaje esté al 100% de descarga.
+**Nota:** Hay que esperar hasta que el porcentaje esté al 100% de descarga. En la imagen de arriba el **deb** se descargarán en **HOME**
 
 luego a cada paquete lo puede descomprimir con clic derecho extraer aquí:
 
+![](vx_images/547226287889811.png)
+
+y dentro buscar las imágenes y moverlas a la carpeta donde usted tiene sus imagenes:
+
+![](vx_images/547226287889812.png)
+
+en la siguiente imagen ya he entrado en el lugar donde están todas las imágenes:
+
+![](vx_images/547226287889813.png)
 
 
-y dentro buscar las imágenes y moverlas a la carpeta donde usted tiene sus imagenes
 
 
 # Problemas con abrir terminal en Thunar, solución añadir otra terminal
