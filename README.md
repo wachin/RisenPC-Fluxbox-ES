@@ -125,10 +125,15 @@ de cualquier manera si lo haga manual o desde la terminal, luego instale los paq
 ```
 sudo apt-get install txt2tags python3-xdg gobject-introspection
 ```
-y luego el programa xdgmenumaker:
+y luego clone el programa xdgmenumaker y entre en su directorio:
 
 ```
-git clone https://github.com/gapan/xdgmenumaker && cd xdgmenumaker && make
+git clone https://github.com/gapan/xdgmenumaker && cd xdgmenumaker
+```
+después haga make:
+
+```
+make
 ```
 
 y hagase super usuario (ponga su contraseña):
