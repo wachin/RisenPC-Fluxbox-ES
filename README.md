@@ -26,7 +26,7 @@ Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente no
 **Dependencias**
 
 
-    sudo apt-get install fluxbox lxappearance lxrandr pnmixer numlockx \
+    sudo apt-get install git fluxbox lxappearance lxrandr pnmixer numlockx \
     xfce4-appfinder xfce4-notes gnome-terminal qt5ct nitrogen \
     breeze gnome-icon-theme gxkb thunar gammy
 
@@ -198,13 +198,15 @@ Pero si no desea utilizar este menú sólo use el XFCE4-AppFinder
 
 
 # Control de volumen
-Clic en el control de volumen:
+Clic en el control de volumen:  
+
 ![](vx_images/408873991826523.png)
 
-y clic en "Mixer"
+y clic en "Mixer"  
+
 ![](vx_images/444275200615615.png)
 
-y se abrirá el control de volumen:
+y se abrirá el control de volumen:  
 
 ![](vx_images/156116023941366.png)
 
@@ -232,7 +234,7 @@ y allí en la pestaña:
 
 **Tema de iconos**
 
-Seleccionar **Papirus**
+Seleccionar **Papirus**  
 
 ![](vx_images/367306723941355.png)
 
@@ -249,11 +251,11 @@ como se explica con más detalle en:
 
 Allí mismo en el configurador QT de clic en la pestaña:
 
-**Tipos de letra**
+**Tipos de letra**  
 
 ![](vx_images/547226287889779.png)
 
-allí arriba como se ve en la imagen cambiar el tamaño de las fuentes:
+allí arriba como se ve en la imagen cambiar el tamaño de las fuentes:  
 
 ![](vx_images/547226287889780.png)
 
@@ -263,11 +265,11 @@ después dar clic en Aplicar luego en Aceptar y cerrar la aplicación escrita en
 
 pero usted puede elegir otro tipo, estilo, tamaño
 
-como puede ser:
+como puede ser:  
 
 ![](vx_images/547226287889781.png)
 
-y lo dejo así:
+y lo dejo así:  
 
 ![](vx_images/547226287889782.png)
 
@@ -275,15 +277,15 @@ y allí le di clic en Aceptar y Aplicar y reinicié la aplicación Qt que necesi
 
 # Atajos de teclado
 
-Antes de que vea la configuración de los atajos de teclado, si usted es curioso y luego quisiera editar los atajos para añadir uno (para usuarios avanzados) puede dar clic derecho en algún lugar del escritorio si estuviera sin ninguna aplicación encima o sino de clic derecho a la izquierda abajo del escritorio:
+Antes de que vea la configuración de los atajos de teclado, si usted es curioso y luego quisiera editar los atajos para añadir uno (para usuarios avanzados) puede dar clic derecho en algún lugar del escritorio si estuviera sin ninguna aplicación encima o sino de clic derecho a la izquierda abajo del escritorio:  
 
 ![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/547226287889775.png)
 
-luego clic en:
+luego clic en:  
 
 ![](vx_images/547226287889776.png)
 
-allí yo puse las siguientes configuraciones al archivo .fluxbox/keys
+allí yo puse las siguientes configuraciones al archivo .fluxbox/keys  
 
 ![](vx_images/547226287889777.png)
 
@@ -294,7 +296,7 @@ Ahora si, los atajos
 ## AppFinder
 Para abrir el buscador de aplicaciones AppFinder (xfce4-appfinder)
 
-Tecla Windows + A
+Tecla Windows + A  
 
 ![](vx_images/547226287889770.png)
 
@@ -308,7 +310,7 @@ Tecla Windows + M
 
 o lo que es lo mismo:
 
-Super + M
+Super + M  
 
 ![](vx_images/528004816576412.png)
 
@@ -344,11 +346,11 @@ le puse este atajo de teclado porque para mi es más fácil de usar, pero si ust
 
 Gammy está en los repositorios de MX Linux 21 y si ha hecho esta instalación allí pues ya está instalado pues lo he incluido en el archivo .fluxbox/startup al autoinicio
 
-Ese archivo lo puede abrir desde el menú:
+Ese archivo lo puede abrir desde el menú:  
 
 ![](vx_images/547226287889784.png)
 
-allí lo puse:
+allí lo puse:  
 
 ![](vx_images/547226287889785.png)
 
@@ -356,11 +358,11 @@ también lo puede buscar manualmente con el administrador de archivos  usando Ct
 
 .fluxbox/startup
 
-lo puede abrir a ese archivo con algún editor de texto, ejemplo en la siguiente imagen con Geany:
+lo puede abrir a ese archivo con algún editor de texto, ejemplo en la siguiente imagen con Geany:  
 
 ![](vx_images/547226287889786.png)
 
-por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, la siguiente imagen es de Gammy en MX Linux 21 (yo lo uso como indico en la imagen):
+por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo entre los iconos, la siguiente imagen es de Gammy en MX Linux 21 (yo lo uso como indico en la imagen):  
 
 ![](vx_images/547226287889778.png)
 
@@ -371,7 +373,7 @@ por lo que cuando usted entre en la sesión, Gammy se abrirá a la derecha abajo
 **Compilando gammy 0.9.51 (herramienta para ajustar el brillo / temperatura del monitor) en MX Linux 19**
 <https://facilitarelsoftwarelibre.blogspot.com/2022/02/compilando-gammy-en-mx-linux-19.html>
 
-Por cierto para minimizar gammy en MX Linux 19 es así como muestro en la siguiente imagen:
+Por cierto para minimizar gammy en MX Linux 19 es así como muestro en la siguiente imagen:  
 
 ![](vx_images/547226287889798.png)
 
@@ -379,7 +381,7 @@ Por cierto para minimizar gammy en MX Linux 19 es así como muestro en la siguie
 # Cómo cambiar de Estilo de Fluxbox
 Cuando usted cambie de estilo:
 
-En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Estilos**
+En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Estilos**  
 
 ![](vx_images/67240114268985.png)
 
@@ -387,7 +389,7 @@ en esta imagen ustedes ven que se ven bien los nombres de los estilos disponible
 
 Por cierto hay algunos de estos temas en lo que al cambiar de tema no se ven todos los estilos disponibles, para arreglar eso de clic:
 
-En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Reajustar Fluxbox**
+En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Reajustar Fluxbox ** 
 
 ![](vx_images/353071596826508.png)
 
@@ -397,11 +399,11 @@ al hacer eso ya se verán bien todos los estilos disponibles
 # Cambiar el idioma del teclado
 Yo vivo en el Ecuador en Latinoamérica y uso la Distribución para Español Latino y por eso lo he dejado configurado para usarlo, cic en:
 
-**Menú --> Preferencias > Startup "Aplicaciones que se cargan al inicio"**
+**Menú --> Preferencias > Startup "Aplicaciones que se cargan al inicio" ** 
 
 ![](vx_images/143144309268994.png)
 
-allí en:
+allí en:  
 
 ![](vx_images/424300892826517.png)
 
@@ -411,7 +413,7 @@ como ve en esa imagen lo puede cambiar por Español España siguiendo esos pasos
 ## Cambiando el idioma del teclado al vuelo (cambio rápido)
 Les he dejado un menú para cambiar rápidamente de teclado
 
-En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Idioma del teclado**
+En es escritorio clic derecho en el menú, o en las esquinas o Super + M y clic en **Idioma del teclado ** 
 
 ![](vx_images/463993105615600.png)
 
@@ -423,7 +425,7 @@ Esto es util pues imaginese que usted está traduciendo algún documento y quier
 # Cambiar el wallpaper (Fondo de pantalla)
 La primera vez que lo vamos a usar es necesario reiniciar nitrogen, de clic en:
 
-**Menú --> Herramientas --> Resetear  Nitrogen en 1er uso y resetear para usar Dos Monitores**
+**Menú --> Herramientas --> Resetear  Nitrogen en 1er uso y resetear para usar Dos Monitores**  
 
 ![](vx_images/378662901615609.png)
 
@@ -431,11 +433,11 @@ esa opción sirve para dos cosas, lo estamos usando para la primera
 
 después de esto si ya pueden dar clic en:
 
-**Menú --> Herramientas --> Cambiar el fondo del escritorio con Nitrogen -imagenes del sistema- **
+**Menú --> Herramientas --> Cambiar el fondo del escritorio con Nitrogen -imagenes del sistema-  ** 
 
 ![](vx_images/547226287889787.png)
 
-allí se abrirá nitrogen y podrán cambiar de wallpaper, por defecto abrirá los que están instalados en el sistema. En la siguiente imagen le pongo los pasos para elegir otro:
+allí se abrirá nitrogen y podrán cambiar de wallpaper, por defecto abrirá los que están instalados en el sistema. En la siguiente imagen le pongo los pasos para elegir otro:  
 
 ![](vx_images/547226287889788.png)
 
@@ -445,47 +447,47 @@ solo que en el punto 2 donde dice **Automatic** cambiele a **Scaled**
 
 # Para añadir un fondo de escritorio (Wallpaper) personalizado
 
-Para usar una imagen como Wallpaper, debe crear una capeta en algún lugar, puede ser dentro de la carpeta Imágenes:
+Para usar una imagen como Wallpaper, debe crear una capeta en algún lugar, puede ser dentro de la carpeta Imágenes:  
 
 ![](vx_images/547226287889789.png)
 
-ejemplo:
+ejemplo:  
 
 ![](vx_images/547226287889790.png)
 
-le he puesto como nombre Wallpapers y dentro he puesto varios:
+le he puesto como nombre Wallpapers y dentro he puesto varios:  
 
 ![](vx_images/547226287889791.png)
 
 para poder seleccionarlos desde Nitrogen, clic en:
 
-**Menú --> Herramientas --> Cambiar sus fondo de escritorio con Nitrogen -sus imagenes-**
+**Menú --> Herramientas --> Cambiar sus fondo de escritorio con Nitrogen -sus imagenes- ** 
 
 ![](vx_images/547226287889818.png)
 
 luego debo dar clic en Nitrogen en:
 
-**Preferencias**
+**Preferencias ** 
 
 ![](vx_images/547226287889792.png)
 
-allí añadir la ruta donde están sus Wallpapers:
+allí añadir la ruta donde están sus Wallpapers:  
 
 ![](vx_images/547226287889793.png)
 
-así:
+así:  
 
 ![](vx_images/547226287889794.png)
 
-así me queda y doy clic en OK:
+así me queda y doy clic en OK:  
 
 ![](vx_images/547226287889795.png)
 
-y les pongo la siguiente imagen para que puedan ver Nitrogen ha cargado las imagenes de la carpeta que creé en Imágenes:
+y les pongo la siguiente imagen para que puedan ver Nitrogen ha cargado las imagenes de la carpeta que creé en Imágenes:  
 
 ![](vx_images/547226287889796.png)
 
-**Nota:** Scaled es para que la imagen ocupe todo el fondo del escritorio si es que no fuera del mismo tamaño y Wallpaper cambiado:
+**Nota:** Scaled es para que la imagen ocupe todo el fondo del escritorio si es que no fuera del mismo tamaño y Wallpaper cambiado:  
 
 ![](vx_images/547226287889797.png)
 
@@ -497,7 +499,7 @@ En los repositorios hay varios paquetes de fondos de escritorio de diferentes di
 
 **backgrounds**
 
-encontrará varios paquetes que tienen fondos de escritorio
+encontrará varios paquetes que tienen fondos de escritorio  
 
 ![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/547226287889801.png)
 
@@ -505,23 +507,23 @@ allí como ejemplo instalé:
 
 mate-backgrounds
 
-y si busco en los **Archivos instalados**
+y si busco en los **Archivos instalados**  
 
 ![](vx_images/547226287889802.png)
 
 quedan instalados en la siguiente ruta:
 
-/usr/share/backgrounds/mate
+/usr/share/backgrounds/mate  
 
 ![](vx_images/547226287889803.png)
 
 pero Nitrogen no los carga
 
-La solución más fácil para mi es marcarlos para instalar:
+La solución más fácil para mi es marcarlos para instalar:  
 
 ![](vx_images/547226287889804.png)
 
-y generar un script de descarga:
+y generar un script de descarga:  
 
 ![](vx_images/547226287889805.png)
 
