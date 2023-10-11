@@ -29,8 +29,7 @@ copiar lo siguiente y ponerlo en una terminal:
 
 ```
 git clone https://github.com/wachin/RisenPC-Fluxbox-ES
-ln -s RisenPC-Fluxbox-ES .fluxbox
-mv .fluxbox ~
+ln -s ~/AppsLinux/RisenPC-Fluxbox-ES ~/.fluxbox
 ```
 
 esto clonará el repositorio creando la carpeta:
