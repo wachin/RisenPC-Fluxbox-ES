@@ -501,7 +501,7 @@ En los repositorios hay varios paquetes de fondos de escritorio de diferentes di
 
 encontrará varios paquetes que tienen fondos de escritorio  
 
-![](/home/wachin/Dev-wachin/RisenPC-Fluxbox-ES/vx_images/547226287889801.png)
+![](vx_images/547226287889801.png)
 
 allí como ejemplo instalé:
 
