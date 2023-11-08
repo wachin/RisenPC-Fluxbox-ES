@@ -1,27 +1,34 @@
 # RisenPC-Fluxbox-ES
 Fluxbox personalizado en español para Ordenadores con pocos recursos
 
+Si bien es cierto MX Linux 21 tiene una versión con Fluxbox no me gusta cómo la han hecho, ejemplo ellos han reemplazado la barra de tareas que si tiene Fluxbox por la de un programa, yo prefiero usar la que tiene Fluxbox
+
 # Requerimientos
 Se requiere lo sigiente:
 
-- Debian 11 KDE
+- MX Linux 21 versión XFCE de 32 o 64 bits
 
-  
+**Nota:** Pero también se puede instalar en MX 19 u otro superior de MX Linux
 
-**Descargar:**
+**Descargar MX Linux desde:**
 
-https://facilitarelsoftwarelibre.blogspot.com/2023/09/donde-descargar-debian-11-bullseye.html.html
+[https://sourceforge.net/projects/mx-linux/files/Final/Xfce/](https://sourceforge.net/projects/mx-linux/files/Final/Xfce/)  
 
+redirigido desde (donde están las ISO más actuales):
 
+[https://mxlinux.org/download-links/](https://mxlinux.org/download-links/)  
+
+**Explicación.-** Esta versión de MX Linux XFCE no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones (digo esto porque MX Linux tiene una versión de Fluxbox pero yo no la uso porque no me gusta). Además es importante tomar en cuenta que todo este tutorial está diseñado para MX Linux 21 por lo que si lo desea usar en otro Sistema Operativo Linux deberá modificarlo muy seguramente.
 
 # Instalación de Fluxbox y dependencias
-Con lo siguiente instalaremos las dependencias necesarias:
+Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
 
 **Dependencias**
 
 
-    sudo apt-get install git fluxbox lxappearance lxrandr pnmixer numlockx qt5ct \
-    nitrogen gnome-icon-theme gxkb xfce4-appfinder network-manager-gnome
+    sudo apt-get install git fluxbox lxappearance lxrandr pnmixer numlockx \
+    xfce4-appfinder xfce4-notes gnome-terminal qt5ct nitrogen \
+    breeze gnome-icon-theme gxkb thunar gammy
 
 dele Enter y poner "s" de que si acepta
 
@@ -52,11 +59,15 @@ sudo rm -fr ~/.fluxbox
 A continuación les dejaré dos maneras de instalar RisenPC Fluxbox ES, la primera es para un usuario normal:
 
 ## Instalar RisenPC Fluxbox Español para usuario normal
-Copie todo de una sola vez  (también si no le funciona copie uno por uno):
+Abra una terminal y:
+
+![](vx_images/357762909269284.png)
+
+copie todo de una sola vez (Terminales como XFCE4-Terminal o Konsole admiten pegar todo de una sola vez) (también si no le funciona copie uno por uno):
 
 ```
-    git clone https://github.com/wachin/Risen-PC-Fluxbox-Debian-11-KDE
-    mv RRisen-PC-Fluxbox-Debian-11-KDE ~/.fluxbox
+    git clone https://github.com/wachin/RisenPC-Fluxbox-ES
+    mv RisenPC-Fluxbox-ES ~/.fluxbox
     cd .fluxbox
     mkdir -p ~/.config/pnmixer/
     cp config ~/.config/pnmixer/ && cd && echo "Dios les bendiga"
@@ -79,9 +90,10 @@ Esta es la segunda manera de instalar RisenPC Fluxbox si usted es un desarrollad
 
 [RisenPC-for-DEV.md](RisenPC-for-DEV.md)
 
-# Configurar qt5ct utilidad de configuración de Qt5
 
-Esto  es necesario para las aplicaciones que han sido escritas en Qt (KDE)  como por ejemplo Dolphin, Kate, etc para poder elegir los iconos y temas  de ellas
+
+# Configurar qt5ct utilidad de configuración de Qt5
+Esto es necesario para las aplicaciones que han sido escritas en Qt (KDE) como por ejemplo Dolphin, Kate, etc para poder elegir los iconos y temas de ellas
 
 Ponga en una terminal:
 
@@ -89,9 +101,7 @@ Ponga en una terminal:
  echo "export QT_QPA_PLATFORMTHEME="qt5ct"" >> ~/.profile
 ```
 
-  Con esto hemos añadido esa última línea al archivo oculto .profile
-
-**Nota**: Esto funciona al reinicio
+Con esto hemos añadido esa última línea al archivo oculto .profile
 
 
 # Instalar Menú de aplicaciones con iconos, con xdgmenumaker
@@ -204,15 +214,35 @@ y se abrirá el control de volumen:
 
 # Temas de iconos para aplicaciones KDE (Qt)
 
-Se configura en:
+Para estas aplicaciones se recomienda usar
+
+Breeze  
+Papuris  
+Oxygen  
+
+se configura en:
 
 **Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**  
 
 ![](vx_images/478325900615604.png)
 
-Esto si por un caso desee hacerlo, aunque no lo veo necesario
+**Nota:** El menú principal de Fluxbox se lo puede abrir desde escritorio con clic derecho, o en las esquinas abajo izquierda o derecha abajo, o con el atajo de teclado Super + M
 
-Si desea cambiar el color de alguna carpeta de dolpin lea:
+Esperar un poco hasta que se abran los ajustes de QT
+
+y allí en la pestaña:
+
+**Tema de iconos**
+
+Seleccionar **Papirus**  
+
+![](vx_images/367306723941355.png)
+
+este tema además es compatible con 
+
+Dolphin  
+
+como se explica con más detalle en:  
 
 **Cambiar colores en carpetas de Dolphin (Administrador de archivos) en MX Linux 21, antiX 21 basados en Debian 11 Bullseye, y Ubuntu 22.04 y otros con "Dolphin Folder Color"**  
 [https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html](https://facilitarelsoftwarelibre.blogspot.com/2022/05/cambiar-colores-en-carpetas-de-dolphin-con-dolphin-folder-color-en-debian-11-ubuntu-22.04.html)  
