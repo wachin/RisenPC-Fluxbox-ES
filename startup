@@ -10,16 +10,47 @@ xmodmap "~/.Xmodmap"
 
 # APLICACIONES QUE SE LANZARÁN AL INICIO EN FLUXBOX
 
+# AT-SPI D-Bus Bus
+/usr/libexec/at-spi-bus-launcher --launch-immediately &
+
 # Colocar el administrador de red en la barra de herramientas
 nm-applet &
 
 # Acceso root añadido para ciertas aplicaciones como: Synaptic, Discos, etc
-/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+# PolicyKit Authentication Agent
+# Agente de autenticación de PolicyKit
+# Comment[es]=Conectar con el «socket» PAM de KWallet
+# Comment=Connect to KWallet PAM socket
+# Tomado de: /etc/xdg/autostart/pam_kwallet_init.desktop
+/usr/lib/i386-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 
-# inicie pulseaudio antes de pnmixer
+# Name= KDE Connect
+# Name[es]= KDE Connect
+# Tomado de: /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
+#/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
+
+
+# Name= KOrganizer Reminder Client
+# Name[es]= Cliente de recordatorio de KOrganizer
+# GenericName= KOrganizer Reminder Daemon Client
+# GenericName[es]= Cliente del demonio de recordatorio de KOrganizer
+# Tomado de: /etc/xdg/autostart/org.kde.korgac.desktop
+#korgac &
+
+
+# KWallet PAM Socket Connection
+# Conexión con el «socket» PAM de KWallet
+#/usr/share/libpam-kwallet-common/pam_kwallet_init &
+
+# Baloo File Daemon
+#baloo_file &
+
+# Name[es]=Sistema de Sonido PulseAudio
+# Comment[es]=Iniciar el Sistema de Sonido PulseAudio
 start-pulseaudio-x11 &
-sleep 2
-pnmixer &
+
+# PN Mixer
+sleep 2; pnmixer &
 
 # Para que la tecla numerica funcione
 numlockx on &
@@ -28,15 +59,15 @@ numlockx on &
 gammy &
 
 # Terminal de Gnome que funciona bien en Fluxbox
-gnome-terminal &
+konsole &
 
 # Es nesesario para poder configurar la velocidad de los cursores de dispositivos externos:
 xinput-gui &
 
 # Lanzar el Administrador de archivos
 # Pueden activar cualquiera de los siguientes si los instalan(exepto thunar que ya está instalado): 
-thunar &
-#dolphin &
+#thunar &
+dolphin &
 #caja & 
 # nemo &
 # nautilus &
@@ -48,14 +79,14 @@ kate &
 #pluma &
 #geany &
 
-# Poner el bloque de notas de XFCE en la bandeja del sistema:
-sleep 5; xfce4-notes &
+# Poner el bloque de notas :
+sleep 5; knotes &
 
 # Aplicacion para poder expulsar USB, Pendrives
 mx-usb-unmounter &
 
 # Iniciar el bus de accesibilidad del usuario, si aún no se está ejecutando
-/usr/libexec/at-spi-bus-launcher --launch-immediately  &
+#/usr/libexec/at-spi-bus-launcher --launch-immediately  &
 
 # Colocar en el escritorio el último fondo seleccionado
 sleep 10; nitrogen --restore &
