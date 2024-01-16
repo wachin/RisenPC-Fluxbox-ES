@@ -8,17 +8,17 @@ Se requiere lo sigiente:
 
 - MX Linux 21 versión XFCE de 32 o 64 bits
 
-**Nota:** Pero también se puede instalar en MX 19 u otro superior de MX Linux
+**Nota:** Pero también se puede instalar en MX 19 u otro superior de MX Linux pero posiblemente habría que adaptar alguna cosa.
 
 **Descargar MX Linux desde:**
 
-[https://sourceforge.net/projects/mx-linux/files/Final/Xfce/](https://sourceforge.net/projects/mx-linux/files/Final/Xfce/)  
+https://sourceforge.net/projects/mx-linux/files/Old/
 
-redirigido desde (donde están las ISO más actuales):
+allí la versión disponible a la fecha Enero 2024
 
-[https://mxlinux.org/download-links/](https://mxlinux.org/download-links/)  
+https://sourceforge.net/projects/mx-linux/files/Old/MX-21.3/
 
-**Explicación.-** Esta versión de MX Linux XFCE no trae instalado la versión de Fluxbox MX Linux por lo cual allí podremos usar estas configuraciones (digo esto porque MX Linux tiene una versión de Fluxbox pero yo no la uso porque no me gusta). Además es importante tomar en cuenta que todo este tutorial está diseñado para MX Linux 21 por lo que si lo desea usar en otro Sistema Operativo Linux deberá modificarlo muy seguramente.
+y descargar la versión Xfce 
 
 # Instalación de Fluxbox y dependencias
 Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente nos aseguraremos de habilitar lo más basico además de dejar configuradas las aplicaciones KDE 
@@ -85,10 +85,16 @@ peguelo en una terminal como lo indica la imagen anterior y ejecutelo
 Por cierto, en la terminal quedarán ubicados en .fluxbox pero pueden salir de allí con cd.
 
 
-## Instalar RisenPC Fluxbox Español para Desarrolladores
-Esta es la segunda manera de instalar RisenPC Fluxbox si usted es un desarrollador y desea cambiar el funcionamiento de este proyecto le recomiendo instalarlo de otra manera, de clic en el siguiente enlace:
+## Instalar RisenPC Fluxbox para Desarrolladores
+Si usted es un desarrollador y desea cambiar el funcionamiento de este proyecto o adaptarlo a sus necesidades, haga un fork de este repositorio:
 
-[RisenPC-for-DEV.md](RisenPC-for-DEV.md)
+https://github.com/wachin/RisenPC-Fluxbox-ES
+
+y luego en las instrucciones anteriores de instalación reemplace el nombre de mi repositorio por el suyo y siga así mismo las mismas instruciones, luego que ya haya cerrado sesión y entrado en la sesión de Fluxbox entre en la carpeta:
+
+.fluxbox
+
+que está oculta en HOME, allí edite lo que necesite según este tutorial y luego abra una terminal allí y allí añada los cambios: git add . etc
 
 
 
@@ -157,7 +163,11 @@ aquí un captura:
 
 Con esto tendrá iconos de la mayoría de las aplicaciones en el menú de fluxbox
 
-**Nota**: Si lo sedea puede borrar la carpeta xdgmenumaker
+**Nota**: Si lo sedea puede borrar la carpeta xdgmenumaker, regrese un directorio atrás:
+
+    cd ..
+
+y luego ponga:
 
     sudo rm -fr xdgmenumaker
 
