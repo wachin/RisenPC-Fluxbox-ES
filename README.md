@@ -629,62 +629,40 @@ wallpapers packages.linuxmint.com
 
 
 # Problemas con abrir terminal en Thunar, solución añadir otra terminal
-Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué (esto en MX Linux 19 o 21), mejor use Konsole, o gnome-terminal u otra
+Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué (esto en MX Linux 19 o 21), mejor use gnome-terminal u otra
 
-para hacerlo en el siguiente ejemplo con Konsole (debe ternerla instalada) añada otra terminal así, clic en:
+Para usar Gnome Terminal clic en:
 
-**Editar --> Configurar Acciones personalizadas**
+**Editar --> Configurar acciones personalizadas** . . .
 
 ![](vx_images/227491714268986.png)
 
-allí clic en el + y llene las siguientes acciones:
+y allí clic en:
 
-![](vx_images/224692296826509.png)
+**Abrir Consola aquí**
 
-con los siguientes datos:
+y clic en la tuerca:
 
-**Nombre:** Abrir Gnome Terminal aquí  
-**Descripción:** Iniciar emulador de consola aquí  
-**Orden:** gnome-terminal %f  
+![](vx_images/20240116-Abrir-Consola-aquí-y-clic-en-la-tuerca.png)
 
-En icono pongale un icono de terminal, de clic en el botón
+y en:
 
-**Icono:**
+**Orden**
 
-luego clic en y ponga:
-
-**Seleccionar icono de:** Todos los iconos  
-**Buscar un icono:** utilities-terminal  
-
-y **aceptar**
-
-![](./img/196002%20pongale%20un%20icono%20de%20terminal.png)
-
-y en la pestaña "**Condiciones de aparición**", marcar **Carpetas**:
-
-![](./img/1960021%20pestaña%20condiciones%20de%20apareción%20marcar%20Carpetas.png)
-
-y **Aceptar**
-
-Ahora si desea puede ubicar más arriba a gnome-terminal, haga así búsque abajo a:
-
-"**Abrir Gnome Terminal aquí**"
-
-![](vx_images/547226287889773.png)
-
-y me queda así:
-
-![](vx_images/547226287889774.png)
-
-Cuando quiera abrir terminal le aparecerá disponible Gnome Terminal
-
-![](./img/1960024%20abrir%20con%20Gnome-terminal.png)
+debe borrar lo que estaba y poner:
 
 
+gnome-terminal %f  
+
+debe quedarle así:
+
+![](vx_images/20240116-cambiar-orden-para-gnome-terminal.png)
+
+de clic en **Aceptar** y cierre la otra ventana.
 
 ## Para añadir la terminal **Konsole**
 
-Debe ternerla instalada:
+Konsole también funciona bien, debe tenerla instalada:
 
 `sudo apt install konsole`
 
@@ -696,7 +674,7 @@ los datos son así:
 
 y en la pestaña "**Condiciones de aparición**", marcar **Carpetas**
 
-y en **icono** lo mismo de arriba
+y en **icono** elija uno de una terminal
 
 cuando quiera abrir terminal aquí le aparecerá disponible Konsole
 
