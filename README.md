@@ -666,15 +666,42 @@ Konsole también funciona bien, debe tenerla instalada:
 
 `sudo apt install konsole`
 
-los datos son así:
+los datos son así, clic en:
+
+**Editar --> Configurar Acciones personalizadas**
+
+![](vx_images/227491714268986.png)
+
+allí clic en el + y llene las siguientes acciones:
+
+![](vx_images/224692296826509.png)
+
+con los siguientes datos:
 
 **Nombre**: Abrir Konsole aquí  
 **Descripción**: Iniciar emulador de consola aquí  
 **Orden**: konsole --workdir %f  
 
-y en la pestaña "**Condiciones de aparición**", marcar **Carpetas**
+En icono pongale un icono de terminal, de clic en el botón
 
-y en **icono** elija uno de una terminal
+**Icono:**
+
+luego clic en y ponga:
+
+**Seleccionar icono de:** Todos los iconos  
+**Buscar un icono:** utilities-terminal  
+
+y **aceptar**
+
+Según explico en la siguiente imagen:
+
+![](vx_images/pongale-un-icono-de-terminal.png)
+
+y en la pestaña "**Condiciones de aparición**", marcar **Carpetas**:
+
+![](vx_images/1960021-pestaña-condiciones-de-apareción-marcar-Carpetas.png)
+
+y **Aceptar**
 
 cuando quiera abrir terminal aquí le aparecerá disponible Konsole
 
