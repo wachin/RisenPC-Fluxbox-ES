@@ -10,6 +10,13 @@ xmodmap "~/.Xmodmap"
 
 # APLICACIONES QUE SE LANZARÁN AL INICIO EN FLUXBOX
 
+# Desabilito la opción de que se apague la pantalla después de 10 minutos
+xset -dpms s off
+
+# Si usted desea ver el status de xset ponga en la terminal: xset q
+# al final debe de decir: DPMS is Disabled
+
+
 # Colocar el administrador de red en la barra de herramientas
 nm-applet &
 
