@@ -13,6 +13,9 @@ xmodmap "~/.Xmodmap"
 # Desabilito la opción de que se apague la pantalla después de 10 minutos
 xset -dpms s off
 
+# Desabilito esa opción que está por defecto porque en algunos ordenadores
+# cuando la pantalla se apaga se cuelga (edemás de que cuando uno está
+# viendo películas no conviene que se apague después de 10 min)
 # Si usted desea ver el status de xset ponga en la terminal: xset q
 # al final debe de decir: DPMS is Disabled
 
