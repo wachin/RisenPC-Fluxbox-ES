@@ -13,6 +13,7 @@ xmodmap "~/.Xmodmap"
 # Desabilito la opción de que se apague la pantalla después de 10 minutos
 xset -dpms s off
 
+# Esto lo deja así: Standby: 0    Suspend: 0    Off: 0
 # Desabilito esa opción que está por defecto porque en algunos ordenadores
 # cuando la pantalla se apaga se cuelga (edemás de que cuando uno está
 # viendo películas no conviene que se apague después de 10 min)
