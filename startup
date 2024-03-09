@@ -106,7 +106,11 @@ ksnip &
 # Navegadores web, elija cual usar:
 # firefox-esr &
 firefox &
-# chromium &
+#chromium &
+
+
+# Alarm Clock Applet
+alarm-clock-applet  &
 
 # Si Ud usa una impresora HP deberá de instalar HPLIP instále: sudo apt-get install hplip-gui
 # para lanzarlo se puede desde las aplicaciones instaladas 
