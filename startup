@@ -105,8 +105,8 @@ ksnip &
 
 # Navegadores web, elija cual usar:
 # firefox-esr &
-firefox &
-#chromium &
+#firefox &
+chromium &
 
 
 # Alarm Clock Applet

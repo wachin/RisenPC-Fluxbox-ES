@@ -28,7 +28,7 @@ Este tutorial ha sido hecho en MX Linux 21 la versión XFCE. Con lo siguiente no
 
     sudo apt-get install git fluxbox lxappearance lxrandr pnmixer numlockx \
     xfce4-appfinder xfce4-notes gnome-terminal qt5ct nitrogen \
-    breeze gnome-icon-theme gxkb thunar gammy
+    breeze frameworkintegration gnome-icon-theme gxkb thunar gammy
 
 dele Enter y poner "s" de que si acepta
 
