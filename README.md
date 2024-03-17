@@ -780,11 +780,15 @@ Dios les bendiga
 
 # CONSULTAS: 
 
+State of Okular in Ubuntu 17.10?
+[https://askubuntu.com/questions/999551/state-of-okular-in-ubuntu-17-10](https://askubuntu.com/questions/999551/state-of-okular-in-ubuntu-17-10)  
+[145772](https://askubuntu.com/a/1401892/145772)
+
 Editing_the_init_file  
-http://fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html  
+[http://fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html](http://fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html)  
 
 How to place the toolbar to the top in fluxbox? - Unix & Linux Stack Exchange   
-https://unix.stackexchange.com/questions/146277/how-to-place-the-toolbar-to-the-top-in-fluxbox  
+[https://unix.stackexchange.com/questions/146277/how-to-place-the-toolbar-to-the-top-in-fluxbox%20](https://unix.stackexchange.com/questions/146277/how-to-place-the-toolbar-to-the-top-in-fluxbox%20) 
 
 Fluxbox Documentation  
 http://fluxbox.sourceforge.net/docbook/en/html/  
