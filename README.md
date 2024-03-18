@@ -230,7 +230,14 @@ Breeze
 Papuris  
 Oxygen  
 
-se configura en:
+Pero hay uno mejor llamado:
+
+Suru++ 25.- Este no está en los repositorios, ver la siguiente entrada para instalarlo:
+
+**Tema de iconos Suru++ (Compatible con veinte distribuciones Linux)**
+[https://facilitarelsoftwarelibre.blogspot.com/2020/05/tema-de-iconos-suru-compatible-con.html](https://facilitarelsoftwarelibre.blogspot.com/2020/05/tema-de-iconos-suru-compatible-con.html)
+
+se configuran los temas en:
 
 **Menú --> Herramientas --> Ajustes Qt "Aplicaciones KDE"**  
 
@@ -782,7 +789,7 @@ Dios les bendiga
 
 State of Okular in Ubuntu 17.10?
 [https://askubuntu.com/questions/999551/state-of-okular-in-ubuntu-17-10](https://askubuntu.com/questions/999551/state-of-okular-in-ubuntu-17-10)  
-[145772](https://askubuntu.com/a/1401892/145772)
+[145772](https://askubuntu.com/a/1401892/145772)  
 
 Editing_the_init_file  
 [http://fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html](http://fluxbox-wiki.org/category/howtos/en/Editing_the_init_file.html)  
