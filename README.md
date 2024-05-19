@@ -221,6 +221,88 @@ y se abrirá el control de volumen:
 ![](vx_images/156116023941366.png)
 
 
+# Problemas con abrir terminal en Thunar, solución añadir otra terminal
+Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué (esto en MX Linux 19 o 21), mejor use gnome-terminal u otra
+
+Para usar Gnome Terminal clic en:
+
+**Editar --> Configurar acciones personalizadas** . . .
+
+![](vx_images/227491714268986.png)
+
+y allí clic en:
+
+**Abrir Consola aquí**
+
+y clic en la tuerca:
+
+![](vx_images/20240116-Abrir-Consola-aquí-y-clic-en-la-tuerca.png)
+
+y en:
+
+**Orden**
+
+debe borrar lo que estaba y poner:
+
+
+gnome-terminal %f  
+
+debe quedarle así:
+
+![](vx_images/20240116-cambiar-orden-para-gnome-terminal.png)
+
+de clic en **Aceptar** y cierre la otra ventana.
+
+## Para añadir la terminal **Konsole**
+
+Konsole también funciona bien, debe tenerla instalada:
+
+`sudo apt install konsole`
+
+los datos son así, clic en:
+
+**Editar --> Configurar Acciones personalizadas**
+
+![](vx_images/227491714268986.png)
+
+allí clic en el + y llene las siguientes acciones:
+
+![](vx_images/224692296826509.png)
+
+con los siguientes datos:
+
+**Nombre**: Abrir Konsole aquí  
+**Descripción**: Iniciar emulador de consola aquí  
+**Orden**: konsole --workdir %f  
+
+En icono pongale un icono de terminal, de clic en el botón
+
+**Icono:**
+
+luego clic en y ponga:
+
+**Seleccionar icono de:** Todos los iconos  
+**Buscar un icono:** utilities-terminal  
+
+y **aceptar**
+
+Según explico en la siguiente imagen:
+
+![](vx_images/pongale-un-icono-de-terminal.png)
+
+y en la pestaña "**Condiciones de aparición**", marcar **Carpetas**:
+
+![](vx_images/1960021-pestaña-condiciones-de-apareción-marcar-Carpetas.png)
+
+y **Aceptar**
+
+cuando quiera abrir terminal aquí le aparecerá disponible Konsole
+
+![](vx_images/300524728941352.png)
+
+También si desea la puede mover más arriba
+
+**Nota:** Se debería poder añadir otras terminales algo así mismo.
 
 # Temas de iconos para aplicaciones KDE (Qt)
 
@@ -633,90 +715,6 @@ wallpapers packages.linuxmint.com
 ![](vx_images/547226287889817.png)
 
 
-
-
-# Problemas con abrir terminal en Thunar, solución añadir otra terminal
-Si usted usa la opción de abrir la terminal aquí de Thunar pues no lo haga pues la terminal de XFCE (xfce4-terminal) no funciona bien en Fluxbox no se porqué (esto en MX Linux 19 o 21), mejor use gnome-terminal u otra
-
-Para usar Gnome Terminal clic en:
-
-**Editar --> Configurar acciones personalizadas** . . .
-
-![](vx_images/227491714268986.png)
-
-y allí clic en:
-
-**Abrir Consola aquí**
-
-y clic en la tuerca:
-
-![](vx_images/20240116-Abrir-Consola-aquí-y-clic-en-la-tuerca.png)
-
-y en:
-
-**Orden**
-
-debe borrar lo que estaba y poner:
-
-
-gnome-terminal %f  
-
-debe quedarle así:
-
-![](vx_images/20240116-cambiar-orden-para-gnome-terminal.png)
-
-de clic en **Aceptar** y cierre la otra ventana.
-
-## Para añadir la terminal **Konsole**
-
-Konsole también funciona bien, debe tenerla instalada:
-
-`sudo apt install konsole`
-
-los datos son así, clic en:
-
-**Editar --> Configurar Acciones personalizadas**
-
-![](vx_images/227491714268986.png)
-
-allí clic en el + y llene las siguientes acciones:
-
-![](vx_images/224692296826509.png)
-
-con los siguientes datos:
-
-**Nombre**: Abrir Konsole aquí  
-**Descripción**: Iniciar emulador de consola aquí  
-**Orden**: konsole --workdir %f  
-
-En icono pongale un icono de terminal, de clic en el botón
-
-**Icono:**
-
-luego clic en y ponga:
-
-**Seleccionar icono de:** Todos los iconos  
-**Buscar un icono:** utilities-terminal  
-
-y **aceptar**
-
-Según explico en la siguiente imagen:
-
-![](vx_images/pongale-un-icono-de-terminal.png)
-
-y en la pestaña "**Condiciones de aparición**", marcar **Carpetas**:
-
-![](vx_images/1960021-pestaña-condiciones-de-apareción-marcar-Carpetas.png)
-
-y **Aceptar**
-
-cuando quiera abrir terminal aquí le aparecerá disponible Konsole
-
-![](vx_images/300524728941352.png)
-
-También si desea la puede mover más arriba
-
-**Nota:** Se debería poder añadir otras terminales algo así mismo.
 
 # Temas de iconos recomendados para usar Thunar 
 Por defecto será usado el tema de iconos de Gnome que instalamos arriba y se verá el icono en la barra de herramientas, pero si usted desea usar otro como lo es Breeze, ya no se verá el icono de Thunar en la barra de herramientas
