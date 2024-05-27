@@ -20,7 +20,7 @@ toolbar.clock:                  flat crossdiagonal gradient
 toolbar.clock.color:            grey40
 toolbar.clock.colorTo:          grey20
 toolbar.clock.textColor:        grey85
-toolbar.justify:                center
+toolbar.justify:                left
 toolbar.font:                   lucidasans-10
 
 menu.title:                     flat crossdiagonal gradient
@@ -28,7 +28,7 @@ menu.title.color:               rgb:6/9/c
 menu.title.colorTo:             rgb:3/48/6
 menu.title.textColor:           white
 menu.title.font:                lucidasans-10
-menu.title.justify:             center
+menu.title.justify:             left
 
 menu.frame:                     flat crossdiagonal gradient
 menu.frame.color:               grey40
@@ -36,7 +36,7 @@ menu.frame.colorTo:             grey20
 menu.frame.textColor:           grey85
 menu.frame.disableColor:        rgb:4/4/38
 menu.frame.font:                lucidasans-10
-menu.frame.justify:             center
+menu.frame.justify:             left
 
 menu.bullet.position:           right
 menu.bullet:                    triangle
@@ -89,7 +89,7 @@ window.frame.focusColor:        rgb:6/9/c
 window.frame.unfocusColor:      grey30
 
 window.font:                    lucidasans-10
-window.justify:                 center
+window.justify:                 left
 
 borderColor:                    grey10
 
