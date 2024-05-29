@@ -1,6 +1,6 @@
 # Abrir AppFinder con atajo de teclado
 # Esto significa que la Tecla de Windows (Mod4) y la tecla A activarán a xfce4-appfinder
-# Super + A
+# Super + F
 Mod4 a :Exec xfce4-appfinder
 
 # Abrir el menu de aplicaciones con atajo de teclado (en el lugar donde esté el cursor)
