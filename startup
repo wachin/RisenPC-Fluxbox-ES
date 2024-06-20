@@ -46,12 +46,12 @@ xinput-gui &
 
 # Lanzar el Administrador de archivos
 # Pueden activar cualquiera de los siguientes si los instalan(exepto thunar que ya está instalado): 
-thunar &
+#thunar &
 #dolphin &
 #caja & 
 # nemo &
 # nautilus &
-# pcmanfm &
+pcmanfm &
 
 # Editores de texto, elija cual usar (debe instalarlo):
 kate &
